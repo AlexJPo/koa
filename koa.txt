@@ -1,0 +1,1939 @@
+﻿tabs
+	skills
+	talants
+	alchemistry
+	blacksmith
+	sagecraft
+
+tab skills
+	alch
+	black
+	detect
+	dispel
+	lock
+	merc
+	pers
+	stelth
+	sage
+
+tab talants
+	tabs
+		might
+		mage
+		firth
+
+tab alch
+	tabs
+		novic
+		jun
+		great
+		mast
+
+tab bc
+
+tab sage
+	tabs gem
+	tabs upgrade
+	tabs crafts
+		tabs weapon
+		tabs armor
+
+
+
+**** alch ****
+Alchemy uses Reagents with guidance from Recipes to create potions at Workbenches.
+Unless you are interested in creating the potions of Fate (refills all your Fate meter),
+you can probably get by with this skill to mix formulas with four reagents.
+
+1	Milestone: A failed experiment now results in an Unstable Potion. Increases chance to successfully harvest reagents.
+2	Increases chance to successfully harvest reagents.
+3	Milestone: You can craft potions with three reagents. Increases chance to successfully harvest reagents.
+4	Increases chance to successfully harvest reagents.
+5	Milestone: You can craft potions with four reagents. Increases chance to successfully harvest reagents.
+6	Increases chance to successfully harvest reagents.
+7	Increases chance to successfully harvest reagents.
+8	Increases chance to successfully harvest reagents.
+9	Increases chance to successfully harvest reagents.
+10	Milestone: All alchemical recipes discovered. Increases chance to successfully harvest reagents.
+
+Receip
+Minor Potions are the most basic potions you can create, using two reagents.
+
+Potion							Reagents										Effect
+Minor Alchemist's Art			1x Embereyes, 1x Sky Blossom 					Temporarily increases your alchemy skill by 1
+Minor Assassin's Evasion		1x Cripplespore Caps, 1x Sky Blossom			Temporarily increases your stealth skill by 1
+Minor Blacksmith's Craft		1x Tindertwig, 1x Sky Blossom					Temporarily increases your blacksmith skill by 1
+Minor Blazing Salve				2x Tindertwig, 1x Scarwood Bark					Increases the damage you do with fire-based attacks: +10 Fire Damage, +25% Fire Damage
+Minor Bleeding Resistance		2x Scarlet Flowstone, 1x Ysa's Breath			Decreases bleeding damage received by 25%
+Minor Burning Sentinel			2x Tindertwig, 1x Edelweiss						Temporarily gives a 50% chance to Burn enemies when attacked
+Minor Current Stopper			2x Eel Petal, 1x Ysa's Breath					Decreases lightning damage received by 25%
+Minor Dispelling Boost			1x Star Thistle, 1x Sky Blossom					Temporarily increases your dispelling skill by 1
+Minor Experience Booster		2x Prismere Dust, 1x Leechwood Bark				Increases the XP you receive per kill by 10%
+Minor Flameguard				1x Tindertwig, 1x Ysa's Breath					Decreases fire damage received by 25%
+Minor Flesh Eater				2x Black Cohosh, 2x Leechwood Bark				Increase the damage you do with health absorption attacks: +10 Health Stolen Per Hit
+Minor Force Potion				2x Sativa Fibers, 1x Scarwood Bark				Increases physical damage: +25% Physical Damage
+Minor Freezing Sentinel			2x White Flake, 1x Edelweiss					Temporarily gives a 50% chance to Freeze enemies when attacked
+Minor Frostbite					2x White Flake, 1x Scarwood Bark				Increases the damage you do with ice-based attacks: +10 Ice Damage, +25% Ice Damage
+Minor Frostguard				1x White Flake, 1x Ysa's Breath					Decreases ice damage received by 25%
+Minor Hardened Shell			2x Sativa Fibers, 2x Ysa's Breath				Increase your physical-based resistance by 25%
+Minor Healing Potion			2x Black Cohosh, 1x Embereyes					Restores a small amount of your health
+Minor Health Regen Potion		2x Black Cohosh, 1x Scarlet Flowstone			Increases your health regeneration rate by a small amount: 5 health regen per second for 60 seconds
+Minor Jeweled Shilelagh			1x White Flake, 1x Sky Blossom					Temporarily increases your sagecraft skill by 1
+Minor Lightning Sentinel		2x Eel Petal, 1x Edelweiss						Temporarily gives a 50% chance to Shock enemies when attacked
+Minor Lightning Storm			2x Eel Petal, 1x Scarwood Bark					Increases the damage you do with lightning-based attacks: +10 Lightning Damage, +25% Lightning Damage
+Minor Magebane					2x Star Thistle, 2x Ysa's Breath				Decreases all magic damage received by 25%
+Minor Magic Amplification		2x Star Thistle, 2x Scarwood Bark				Increase all magic damage: 25%
+Minor Magic Precision			2x Scarab Salts, 1x Star Thistle				Increases the chance that you will perform critical strikes with magic by 10%
+Minor Mana Potion				2x Softscrabble Powder, 1x Embereyes			Restores a small amount of your mana
+Minor Mana Regen Potion			2x Softscrabble Powder, 1x Scarlet Flowstone	Increases your Mana regeneration rate by a small amount: 5 mana regen per second for 60 seconds
+Minor Mana Sap					2x Softscrabble Powder, 2x Leechwood Bark		Increases the damage you do with mana absorption attacks: +10 Mana Stolen Per Hit
+Minor Merchant's Command		1x Sativa Fibers, 1x Sky Blossom				Temporarily increases your mercantile skill by 1
+Minor Piercing Serum			2x Scarwood Bark, 1x Scarlet Flowstone			Increases piercing damage: +25% Piercing Damage
+Minor Precision					2x Scarab Salts, 1x Sativa Fibers				Increases the chance that you will perform critical strikes by 10%
+Minor Social Grace				1x Leechwood Bark, 1x Sky Blossom				Temporarily increases your persuasion skill by 1
+Minor Sorcerer's Intelligence	2x Softscrabble Powder, 2x Star Thistle			Increases your total mana pool for a limited time by a small amount
+Minor Serpent's Venom			2x Cripplespore Caps, 1x Scarwood Bark			Increases damage you do with poison-based attacks: +10 Poison Damage, +25% Poison Damage
+Minor Slashing Fury				2x Scarlet Flowstone, 1x Scarwood Bark			Increases your bleeding damage attacks: +10 Bleeding Damage, +25% Bleeding Damage
+Minor Steeled Curtain			2x Seaflax, 1x Ysa's Breath						Increases your total armor by 25%
+Minor Thief's Cunning			1x Eel Petal, 1x Sky Blossom					Temporarily increases your lockpicking skill by 1
+Minor Tracker's Draught			1x Scarab Salts, 1x Sky Blossom					Temporarily increases your detect hidden skill by 1
+Minor Venomguard				2x Cripplespore Caps, 1x Ysa's Breath			Decreases poison damage received by 25%
+Minor Warrior's Strength		2x Black Cohosh, 2x Sativa Fibers				Increases your total health for a limited time by a small amount
+Purification Potion				2x Embereyes, 2x Ysa's Breath					Cures any non-magical diseases you may have and grants immunity to all diseases for a short duration
+
+Potion								Reagent															Effect
+Greater Alchemist's Art				2x Embereyes, 2x Sky Blossom, 1x Bloodroot						Temporarily increases your alchemy skskill by 2
+Greater Assassin's Evasion			2x Cripplespore Caps, 2x Sky Blossom, 1x Bloodroot				Temporarily increases your stealth skskill by 2
+Greater Blacksmith's Craft			2x Tindertwig, 2x Sky Blossom, 1x Bloodroot						Temporarily increases your blacksmith skill by 2
+Greater Blazing Salve				3x Tindertwig, 2x Scarwood Bark, 1x Bloodroot					Increases the damage you do with fire-based attacks: +20 Fire Damage, +50% Fire Damage
+Greater Bleeding Resistance			2x Scarlet Flowstone, 2x Ysa's Breath, 1x Seaflax				Decreases bleeding damage received by 50%
+Greater Burning Sentinel			3x Tindertwig, 2x Edelweiss, 1x Seaflax							Temporarily gives a 60% chance to Burn enemies when attacked
+Greater Current Stopper				2x Eel Petal, 2x Ysa's Breath, 1x Seaflax						Decreases lightning damage received by 50%
+Greater Dispelling Boost			2x Star Thistle, 2x Sky Blossom, 1x Bloodroot					Temporarily increases your dispelling skill by 2
+Greater Experience Boost			3x Prismere Dust, 2x Leechwood Bark, 1x Bloodroot				Increases the XP you receive per kill by 15%
+Greater Flameguard					2x Tindertwig, 2x Ysa's Breath, 1x Seaflax						Decreases fire damage received by 50%
+Greater Flesh Eater					3x Black Cohosh, 3x Leechwood Bark, 1x Scarwood Bark			Increase the damage you do with health absorption attacks: +15 Health Stolen Per Hit
+Greater Force Potion				3x Sativa Fibers, 3x Scarwood Bark, 1x Bloodroot				Increases physical damage: +50% Physical Damage
+Greater Freezing Sentinel			3x White Flake, 2x Edelweiss, 1x Seaflax						Temporarily gives a 60% chance to Freeze enemies when attacked
+Greater Frostbite					3x White Flake, 2x Scarwood Bark, 1x Bloodroot					Increases the damage you do with fire-based attacks: +20 Ice Damage, +50% Ice Damage
+Greater Frostguard					2x White Flake, 2x Ysa's Breath, 1x Seaflax						Decreases ice damage received by 50%
+Greater Hardened Shell				3x Sativa Fibers, 3x Ysa's Breath, 1x Seaflax					Increase your physical-based resistance by 50%
+Greater Healing Potion				3x Black Cohosh, 2x Embereyes, 1x Bloodroot						Restores a moderate amount of your health
+Greater Health Regen Potion			3x Black Cohosh, 2x Scarlet Flowstone, 1x Bloodroot				Increases your health regeneration rate by a moderate amount: 20 health regen per second for 60 seconds
+Greater Jeweled Shilelagh			2x White Flake, 2x Sky Blossom, 1x Bloodroot					Temporarily increases your sagecrafting skill by 2
+Greater Lightning Sentinel			3x Eel Petal, 2x Edelweiss, 1x Seaflax							Temporarily gives a 60% chance to Shock enemies when attacked
+Greater Lightning Storm				3x Eel Petal, 2x Scarwood Bark, 1x Bloodroot					Increases the damage you do with fire-based attacks: +20 Lightning Damage, +50% Lightning Damage
+Greater Magebane					3x Star Thistle, 3x Ysa's Breath, 1x Seaflax					Decreases all magic damage received by 50% (30 second duration)
+Greater Magic Amplification			3x Star Thistle, 3x Scarwood Bark, 1x Bloodroot					Increase all magic damage: +50% Magic Damage, (30 second duration)
+Greater Magic Precision				3x Scarab Salts, 2x Star Thistle, 1x Scarwood Bark				Increases the chance that you will perform critical strikes with magic by 15%
+Greater Mana Potion					3x Softscrabble Powder, 2x Embereyes, 1x Bloodroot				Restores a moderate amount of your mana
+Greater Mana Regen Potion			3x Softscrabble Powder, 2x Scarlet Flowstone, 1x Bloodroot		Increases your mana regeneration rate by a moderate amount: 20 mana regen per second for 60 seconds
+Greater Mana Sap					3x Softscrabble Powder, 3x Leechwood Bark, 1x Scarwood Bark		Increase the damage you do with mana absorption attacks: +15 Mana Stolen Per Hit
+Greater Merchant's Command			2x Sativa Fibers, 2x Sky Blossom, 1x Bloodroot					Temporarily increases your mercantile skill by 2
+Greater Piercing Serum				3x Scarwood Bark, 3x Ysa's Breath, 1x Sativa Fibers				Increases piercing damage: +50% Piercing Damage
+Greater Precision					3x Scarab Salts, 2x Sativa Fibers, 1x Scarwood Bark				Increases the chance that you will perform critical strikes by 15%
+Greater Social Grace				2x Leechwood Bark, 2x Sky Blossom, 1x Bloodroot					Temporarily increases your persuasion skill by 2 
+Greater Sorcerer's Intelligence		3x Softscrabble Powder, 3x Star Thistle, 1x Bloodroot			Increases your total mana pool for a limited time by a moderate amount
+Greater Serpent's Venom				3x Cripplespore Caps, 2x Scarwood Bark, 1x Bloodroot			Increases damage you do with poison-based attacks: +20 Poison Damage, +50% Poison Damage
+Greater Slashing Fury				3x Scarlet Flowstone, 2x Scarwood Bark, 1x Bloodroot			Increases your bleeding damage attacks: +20 Bleeding Damage, +50% Bleeding Damage
+Greater Steeled Curtain				2x Seaflax, 2x Ysa's Breath, 1x Bloodroot						Increases your total armor by 50%
+Greater Thief's Cunning				2x Eel Petal, 2x Sky Blossom, 1x Bloodroot						Temporarily increases your lockpicking skill by 2
+Greater Tracker's Draught			2x Scarab Salts, 2x Sky Blossom, 1x Bloodroot					Temporarily increases your detect hidden skill by 2
+Greater Venomguard					2x Cripplespore Caps, 2x Ysa's Breath, 1x Seaflax				Decreases poison damage received by 50%
+Greater Warrior's Strength			3x Black Cohosh, 3x Sativa Fibers, 1x Bloodroot					Increases your total health for a limited time by a moderate amount
+Liquid Seduction					1x Scarwood Bark, 1x Tindertwig, 1x Sky Blossom					Makes it easier to socialize with and persuade the opposite sex
+Minor Damage Boost					3x Sativa Fibers, 3x Star Thistle, 2x Scarwood Bark				Increases the damage of all your attacks: +15% damage
+Minor Damage Deflection				2x Sativa Fibers, 2x Star Thistle, 1x Ysa's Breath				Decreases all damage received by 25%
+Minor Phasewalk						2x Star Thistle, 1x Cripplespore Caps, 2x Sky Blossom			Renders the user invisible
+
+Potion								Reagent Mixture																		Effects
+Fate Potion							4x Essence of Fate																	A potion to instantly fill your Fate energy bar completely
+Greater Damage Boost				4x Sativa Fibers, 4x Star Thistle, 3x Scarwood Bark, 1x Essence of Fate				Increases the damage of all your attacks: +20% damage
+Greater Damage Deflection			3x Sativa Fibers, 3x Star Thistle, 2x Ysa's Breath, 1x Essence of Fate				Decreases all damage received by 50%
+Greater Phasewalk					2x Star Thistle, 1x Cripplespore Caps, 2x Sky Blossom, 1x Essence of Fate			Renders the user invisible
+Master Alchemist's Art				2x Embereyes, 2x Sky Blossom, 2x Bloodroot, 1x Essence of Fate						Temporarily increases your alchemy skill by 3
+Master Assassin's Evasion			2x Cripplespore Caps, 2x Sky Blossom, 2x Bloodroot, 1x Essence of Fate				Temporarily increases your stealth skill by 3
+Master Blacksmith's Craft			2x Tindertwig, 2x Sky Blossom, 2x Bloodroot, 1x Essence of Fate						Temporarily increases your blacksmithing skill by 3
+Master Blazing Salve				3x Tindertwig, 2x Scarwood Bark, 1x Bloodroot, 1x Essence of Fate					Increases the damage you do with fire-based attacks: +30 Fire Damage, +75% Fire Damage
+Master Bleeding Resistance			2x Scarlet Flowstone, 2x Ysa's Breath, 1x Seaflax, 1x Essence of Fate				Decreases bleeding damage received by 75%
+Master Burning Sentinel				3x Tindertwig, 2x Edelweiss, 1x Seaflax, 1x Essence of Fate							Chance to Burn enemies when attacked
+Master Current Stopper				2x Eel Petal, 2x Ysa's Breath, 1x Seaflax, 1x Essence of Fate						Decreases lightning damage received by 75%
+Master Dispelling Boost				2x Star Thistle, 2x Sky Blossom, 2x Bloodroot, 1x Essence of Fate					Temporarily increases your dispelling skill by 3 Dispelling
+Master Experience Boost				3x Prismere Dust, 2x Leechwood Bark, 2x Bloodroot, 1x Essence of Fate				+20% Experience from Kills
+Master Force Potion					3x Sativa Fibers, 3x Scarwood Bark, 2x Bloodroot, 1x Essence of Fate				Increases physical damage +75% Physical Damage
+Master Flameguard					2x Tindertwig, 2x Ysa's Breath, 1x Seaflax, 1x Essence of Fate						Decreases fire damage received by 75%
+Master Flesh Eater					3x Black Cohosh, 3x Leechwood Bark, 2x Scarwood Bark, 1x Essence of Fate			Increases the damage you do with health absorption attacks: +20 Health Stolen per Hit
+Master Frostbite					3x White Flake, 2x Scarwood Bark, 1x Bloodroot, 1x Essence of Fate					Increases the damage you do with ice-based attacks: +30 Ice Damage, +75% Ice Damage
+Master Frostguard					2x White Flake, 2x Ysa's Breath, 1x Seaflax, 1x Essence of Fate						Decreases ice damage received by 75%
+Master Freezing Sentinel			3x White Flake, 2x Edelweiss, 1x Seaflax, 1x Essence of Fate						Chance to Freeze enemies when attacked
+Master Hardened Shell				3x Sativa Fibers, 3x Ysa's Breath, 2x Seaflax, 1x Essence of Fate					Increase your physical-based resistance by 75%
+Master Healing Potion				3x Black Cohosh, 2x Emebereyes, 1x Bloodroot, 1x Essence of Fate					Large amount of Health
+Master Health Regen Potion			3x Black Cohsoh, 2x Scarlet Flowstone, 1x Bloodroot, 1x Essence fo Fate				Large amount of Health Regeneration
+Master Jeweled Shilelagh			2x White Flake, 2x Sky Blossom, 2x Bloodroot, 1x Essence of Fate					Temporarily increases your sagecrafting skill by 3
+Master Lightning Sentinel			3x Eel Petal, 2x Edelweiss, 1x Seaflax, 1x Essence of Fate							Chance to Shock enemies when attacked
+Master Lightning Storm				3x Eel Petal, 2x Scarwood Bark, 1x Bloodroot, 1x Essence of Fate					Increases the damage you do with lightning-based attacks: +30 Lightning Damage, +75% Lightning Damage
+Master Magebane						3x Star Thistle, 3x Ysa's Breath, 2x Seaflax, 1x Essence of Fate					Decreases all magic damage received by 75% (30 second duration)
+Master Magic Amplification			3x Star Thistle, 3x Scarwood Bark, 2x Bloodroot, 1x Essence of Fate					Increase all magic damage: +75% Magic Damage
+Master Magic Precision				3x Scarab Salts, 2x Star Thistle, 2x Scarwood Bark, 1x Essence of Fate				Increases the chance that you will perform critical strikes with magic by 30%
+Master Mana Potion					3x Softscrabble Powder, 2x Embereyes, 1x Bloodroot, 1x Essence of Fate				Large amount of Mana
+Master Mana Regen Potion			3x Softscrabble Powder, 2x Scarlet Flowstone, 1x Bloodroot, 1x Essence of Fate		Large amount of Mana Regeneration
+Master Mana Sap						3x Softscrabble Powder, 3x Leechwood Bark, 2x Scarwood Bark, 1x Essence of Fate		Increases the damage you do with mana absorption attacks: +20 Mana Stolen per Hit
+Master Merchant's Command			2x Sativa Fibers, 2x Sky Blossom, 2x Bloodroot, 1x Essence of Fate					Temporarily increases your mercantile skill by 3
+Master Piercing Serum				3x Scarwood Bark, 3x Scarlet Flowstone, 2x Sativa Fibers, 1x Essence of Fate		Increases your piercing damage attacks: +30 Piercing Damage, +75% Piercing Damage
+Master Precision					3x Scarab Salts, 2x Sativa Fibers, 2x Scarwood Bark, 1x Essence of Fate				Increases the chance that you will perform critical strikes by 30%
+Master Social Grace					2x Leechwood Bark, 2x Sky Blossom, 2x Bloodroot, 1x Essence of Fate					Temporarily increases your persuasion skill by 3
+Master Sorcerer's Intelligence		3x Softscrabble Powder, 3x Star Thistle, 1x Bloodroot, 1x Essence of Fate			Increases your total mana pool for a limited time by a large amount
+Master Serpent's Venom				3x Cripplespore Caps, 2x Scarwood Bark, 1x Bloodroot, 1x Essence of Fate			Increases your poison damage attacks: +30 Poison Damage, +75% Poison Damage
+Master Slashing Fury				3x Scarlet Flowstone, 2x Scarwood Bark, 1x Bloodroot, 1x Essence of Fate			Increases your bleeding damage attacks: +30 Bleeding Damage, +75% Bleeding Damage
+Master Steeled Curtain				2x Seaflax, 2x Ysa's Breath, 1x Bloodroot, 1x Essence of Fate						Increases your total armor by 75%
+Master Thief's Cunning				2x Eel Petal, 2x Sky Blossom, 2x Bloodroot, 1x Essence of Fate						Temporarily increases your lockpicking skill by 3
+Master Tracker's Draught			2x Scarab Salts, 2x Sky Blossom, 2x Bloodroot, 1x Essence of Fate					Temporarily increases your detect hidden skill by 3
+Master Venomguard					2x Cripplespore Caps, 2x Ysa's Breath, 1x Seaflax, 1x Essence of Fate				Decreases poison damage received by 75%
+Master Warrior's Strength			3x Black Cohosh, 3x Sativa Fibers, 1x Bloodroot, 1x Essence of Fate					Increases your total health for a limited time by a large amount
+
+
+**** blacksmith ****
+Blacksmithing uses Components to create weapons and armor from Forges.
+It should be noted that on easier difficulties, the repair kits practically repair all of an item's durability,
+making this skill chiefly about using gems as item fabrication components (level 7).
+
+One other benefit of raising blacksmithing to higher levels, of course, is the ability to craft increasingly specific equipment to suit one's playstyle.
+With each new component unlocked, another attribute can be added to a weapon or armor piece, limited in application only by one's supplies of components.
+
+It should also be noted that, by the time one reaches the ability to make "mastercrafted" equipment, an item that one crafts will gain a substantial permanent bonus,
+often along the lines of a ~~6% damage or damage reduction increase, even if one unequips the item, re-specifies their skill tree, and equips it again.
+
+1	You can now harvest components from some enemies in the world.
+2	You can create an item with three components, giving it a slight bonus.
+3	You can salvage infrequent equipment.
+4	You can create an item with four components.
+6	You can salvage rare equipment.
+7	You can use gems as components when crafting equipment.
+10	You can create "mastercrafted" equipment.
+
+Core Components
+Blade				Rank		Physical	Piercing	Level req
+Iron Blade			Iron		13			5			None
+Steel Blade			Steel		24			9			4
+Azurite Blade		Azurite		40			16			8
+Sylvanite Blade		Sylvanite	63			25			11
+Prismere Blade		Prismere	84			33			16
+
+Large Blade				Rank		Physical	Piercing
+Large Iron Blade		Iron		22			5
+Large Steel Blade		Steel		40			9
+Large Azurite Blade		Azurite		67			16
+Large Sylvanite Blade	Sylvanite	105			25
+Large Prismere Blade	Prismere	139			33
+
+Curved Blades				Rank		Physical	Piercing
+Curved Iron Blades			Iron		10			6
+Curved Steel Blades			Steel		18			10
+Curved Azurite Blades		Azurite		29			17
+Curved Sylvanite Blades		Sylvanite 	45			27
+Curved Prismere Blades		Prismere	59			35
+
+Disc					Rank		Physical	Fire	Burning
+Iron Flame Disc			Iron		7			7		13 / 3 seconds
+Steel Flame Disc		Steel		12			12		24 / 3 seconds
+Azurite Flame Disc		Azurite		20			20		40 / 3 seconds
+Sylvanite Flame Disc	Sylvanite	31			31		63 / 3 seconds
+Prismere Flame Disc		Prismere	41			41		84 / 3 seconds
+
+Dowel				Rank	Fire	Burning			Level req
+Birch Flame Dowel	Birch	8		7 / 3 seconds	1
+Elm Flame Dowel		Elm		15		12 / 3 seconds	4
+Oak Flame Dowel		Oak		26		20 / 3 seconds
+Ash Flame Dowel		Ash		41		31 / 3 seconds
+Ebony Flame Dowel	Ebony	54		41 / 3 seconds
+
+Might Guards
+Guard				Rank		Armor	Damage Blocked
+Iron Guard			Iron		19		7
+Steel Guard			Steel		46		13
+Azurite Guard		Azurite		86		27
+Sylvanite Guard		Sylvanite	126		45
+Prismere Guard		Prismere	184		97
+
+Finesse Guards
+Guard			Rank	Armor	Damage Blocked
+Birch Guard		Birch	14		6
+Elm Guard		Elm		33		11
+Oak Guard		Oak		61		23
+Ash Guard		Ash		89		38
+Ebony Guard		Ebony	129		77
+
+Sorcery Guards
+Guard					Rank		Armor	Damage Blocked	DoT Type
+Copper Flame Guard		Copper		10		4				Burning
+Copper Frost Guard		Copper		10		4				Freezing
+Copper Shock Guard		Copper		10		4				Shocking
+Bronze Flame Guard		Bronze		22		9				Burning
+Bronze Frost Guard		Bronze		22		9				Freezing
+Bronze Shock Guard		Bronze		22		9				Shocking
+Silver Flame Guard		Silver		40		18				Burning
+Silver Frost Guard		Silver		40		18				Freezing
+Silver Shock Guard		Silver		40		18				Shocking
+Gold Flame Guard		Gold		58		30				Burning
+Gold Frost Guard		Gold		58		30				Freezing
+Gold Shock Guard		Gold		58		30				Shocking
+Platinum Flame Guard	Platinum	84		61				Burning
+Platinum Frost Guard	Platinum	84		61				Freezing
+Platinum Shock Guard	Platinum	84		61				Shocking
+
+Limb		Rank	Physical	Piercing	Level req
+Birch Limb	Birch	12			5			1
+Elm Limb	Elm		21			9
+Oak Limb	Oak		35			16
+Ash Limb	Ash		55			25
+Ebony Limb	Ebony	73			33
+
+Flame Rods
+Rod					Rank	Fire	Burning
+Birch Flame Rod		Birch	13		12 / 3 seconds
+Elm Flame Rod		Elm		24		21 / 3 seconds
+Oak Flame Rod		Oak		40		35 / 3 seconds
+Ash Flame Rod		Ash		63		55 / 3 seconds
+Ebony Flame Rod		Ebony	84		73 / 3 seconds
+
+Frost Rods
+Rod					Rank	Ice		Freezing
+Birch Frost Rod		Birch	13		6 / 6 seconds
+Elm Frost Rod		Elm		24		10 / 6 seconds
+Oak Frost Rod		Oak		40		17 / 6 seconds
+Ash Frost Rod		Ash		63		27 / 6 seconds
+Ebony Frost Rod		Ebony	84		36 / 6 seconds
+
+Shock Rods
+Rod					Rank	Lightning	Shocking
+Birch Shock Rod		Birch	13			8 / 5 seconds
+Elm Shock Rod		Elm		24			15 / 5 seconds
+Oak Shock Rod		Oak		40			26 / 5 seconds
+Ash Shock Rod		Ash		63			41 / 5 seconds
+Ebony Shock Rod		Ebony	84			54 / 5 seconds
+
+Small Blades			Rank		Physical	Piercing
+Small Iron Blades		Iron		6			6
+Small Steel Blades		Steel		10			10
+Small Azurite Blades	Azurite		17			17
+Small Sylvanite Blades	Sylvanite	27			27
+Small Prismere Blades	Prismere	35			35
+
+Plumb				Rank		Physical Damage		Level req
+Iron Plumb			Iron		34
+Steel Plumb			Steel		61					4
+Azurite Plumb		Azurite		101					9
+Sylvanite Plumb		Sylvanite	158
+Prismere Plumb		Prismere	209
+
+
+Might Braces
+Brace				Rank		Armor	Might req
+Iron Brace			Iron		19
+Chainmail Brace		Chainmail	33		7
+Steel Brace			Steel		59		14
+Azurite Brace		Azurite		86		21
+Azurite Brace*		Sylvanite	131
+Prismere Brace		Prismere	184
+Due to a bug, the Sylvanite Brace is listed as "Azurite Brace". However, when it is used to craft a Chausses, it will have the appearance and the armor class of a Sylvanite Chausses
+
+Finesse Braces
+Brace					Rank				Armor	Finesse req
+Leather Brace			Leather				14		3
+Boiled Leather Brace	Boiled Leather		33		9
+Studded Leather Brace	Studded Leather		61		21
+Trollhide Brace			Trollhide			89
+Dreadscale Brace		Dreadscale			129		38
+
+Might Chestpieces
+Chestpiece				Rank		Armor	Might req
+Iron Chestpiece			Iron		39		3
+Chainmail Chestpiece	Chainmail	66		7
+Steel Chestpiece		Steel		119		14
+Azurite Chestpiece		Azurite		173		21
+Sylvanite Chestpiece	Sylvanite	261
+Prismere Chestpiece		Prismere	368
+
+Finesse Chestpieces
+Chestpiece					Rank				Armor	Finesse req
+Leather Chestpiece			Leather				28
+Boiled Leather Chestpiece	Boiled Leather		66
+Studded Leather Chestpiece	Studded Leather		122		21
+Trollhide Chestpiece		Trollhide			178		28
+Dreadscale Chestpiece		Dreadscale			258
+
+Might Headdresses
+Headdress				Rank		Armor	Might req
+Iron Headdress			Iron		33
+Chainmail Headdress		Chainmail	33		7
+Steel Headdress			Steel		59
+Azurite Headdress		Azurite		86		21
+Sylvanite Headdress		Sylvanite	131
+Prismere Headdress		Prismere	184
+
+Finesse Headdresses
+Headdress					Rank				Armor	Finesse req
+Leather Headdress			Leather				14		3
+Boiled Leather Headdress	Boiled Leather		33		10
+Studded Leather Headdress	Studded Leather		61		21
+Trollhide Headdress			Trollhide			89
+Dreadscale Headdress		Dreadscale			129
+
+Sorcery Headdresses
+Headdress				Rank			Armor	Sorcery req
+Cotton Headdress		Cotton			10
+Linen Headdress			Linen			22
+Silk Headdress			Silk			40
+Hexweave Headdress		Hexweave		58
+Spiritweave Headdress	Spiritweave		94
+
+Might Mitts
+Mitt			Rank		Armor	Might req
+Iron Mitt		Iron		10		3
+Chainmail Mitt	Chainmail	16
+Steel Mitt		Steel		30		14
+Azurite Mitt	Azurite		43		21
+Sylvanite Mitt	Sylvanite	65
+Prismere Mitt	Prismere	92
+
+Finesse Mitts
+Mitt					Rank				Armor	Finesse req
+Leather Mitt			Leather				10		3
+Boiled Leather Mitt		Boiled Leather		16		10
+Studded Leather Mitt	Studded Leather		30
+Trollhide Mitt			Trollhide			44		32
+Dreadscale Mitt			Dreadscale			65
+
+Sorcery Mitts
+Mitt				Rank			Armor	Sorcery req
+Cotton Mitt			Cotton			5		3
+Linen Mitt			Linen			11
+Silk Mitt			Silk			20		18
+Hexweave Mitt		Hexweave		29		32
+Spiritweave Mitt	Spiritweave		42
+
+
+Support Components
+
+Basic Bindings
+Bindings						Effect
+Basic Amplified Bindings		+5% Physical Crit Damage
+Basic Charged Bindings			+5% Lightning Damage
+Basic Clarity Bindings			+3% Physical Crit Chance
+Basic Damaging Bindings			+10% Damage
+Basic Divine Bindings			+10% Mana
+Basic Enchanted Bindings		+5% Magic Crit Damage
+Basic Energizing Bindings		+0.1 Health Regen, +0.2 Mana Regen
+Basic Flamed Bindings			+5% Fire Damage
+Basic Hardened Bindings			+10 Health
+Basic Infected Bindings			+5% Poison Damage
+Basic Magnifying Bindings		+3% Crit Chance
+Basic Moonlight Bindings		+5% Damage during Night
+Basic Mystic Bindings			+3% Magic Crit Chance
+Basic Piercing Bindings			+5% Piercing Damage
+Basic Restoring Bindings		+0.2 Mana Regen per Sec
+Basic Robust Bindings			+20 Health, +20 Mana
+Basic Sage Bindings				+10 Mana
+Basic Slaughtering Bindings		+5% Bleeding Damage
+Basic Sunlight Bindings			+5% Damage during Daytime
+Basic Sustaining Bindings		+0.1 Health Regen
+Simple Bindings					+5 Health
+
+Improved Bindings
+Bindings						Effect
+Improved Assailing Bindings		+8% Damage vs. Healthy Enemies
+Improved Damaging Bindings		+14% Damage
+Improved Divine Bindings		+12% Mana
+Improved Flamed Bindings		+7% Fire Damage
+Improved Frosted Bindings		+7% Ice Damage
+Improved Charged Bindings		+7% Lightning Damage
+Improved Hardened Bindings		+20 Health
+Improved Magnifying Bindings	+4% Crit Chance
+Improved Moonlight Bindings		+7% Damage at Night
+Improved Piercing Bindings		+7% Piercing Damage
+Improved Rallying Bindings		+7% Physical Damage
+Improved Restoring Bindings		+0.5 Mana Regen per Sec
+Improved Robust Bindings		+30 Health, +30 Mana
+Improved Sage Bindings			+20 Mana
+Improved Sunlight Bindings		+7% Daytime Damage
+Improved Sustaining Bindings	+0.5 Health Regen
+Improved Tormenting Bindings	+8% Damage vs. Heavily Wounded targets
+
+Greater Bindings
+Bindings						Effect
+Greater Arcane Bindings			+10% Damage with Magic
+Greater Charged Bindings		+10% Lightning Damage
+Greater Divine Bindings			+14% Mana
+Greater Damaging Bindings		+19% Damage
+Greater Energizing Bindings		+1 Health Regen, +1 Mana Regen
+Greater Flamed Bindings			+10% Fire Damage
+Greater Frosted Bindings		+10% Ice Damage
+Greater Hardened Bindings		+45 Health
+Greater Infected Bindings		+11% Poison Damage
+Greater Rallying Bindings		+10% Physical Damage
+Greater Restoring Bindings		+1 Mana Regen
+Greater Robust Bindings			+45 Health, +45 Mana
+Greater Sage Bindings			+45 Mana
+Greater Strengthening Bindings	+14% Health
+
+Master Bindings
+Bindings						Effect
+Master Amplified Bindings		+12% Physical Crit Damage
+Master Arcane Bindings			+15% Damage with Magic
+Master Assailing Bindings		+15% Damage vs. Healthy Enemies
+Master Clairty Bindings			+6% Physical Crit Chance
+Master Divine Bindings			+17% Mana
+Master Frosted Bindings			+15% Ice Damage
+Master Hardened Bindings		+80 Health
+Master Magnifying Bindings		+6% Crit Chance
+Master Moonlight Bindings		+15% Night Damage
+Master Mystic Bindings			+6% Magic Crit Chance
+Master Rallying Bindings		+20% Physical Damage
+Master Restoring Bindings		+1.5 Mana Regen
+Master Robust Bindings			+60 Health, +60 Mana
+Master Sage Bindings			+80 Mana
+Master Slaughtering Bindings	+15% Bleeding Damage
+Master Sunlight Bindings		+15% Damage during Daytime
+Master Sustaining Bindings		+1.5 Health Regen
+
+Flawless Bindings
+Bindings							Effect
+Flawless Amplified Bindings			+15% Physical Crit Damage
+Flawless Arcane Bindings			+20% Damage with Magic
+Flawless Charged Bindings			+20% Lightning Damage
+Flawless Clarity Bindings			+7% Physical Crit Chance
+Flawless Damaging Bindings			+30% Damage
+Flawless Divine Bindings			+20% mana
+Flawless Enchanted Bindings			+15% Critical Hit Damage With Magic
+Flawless Energizing Bindings		+2 Health Regen, +2 Mana Regen
+Flawless Flamed Bindings			+20% Fire Damage
+Flawless Frosted Bindings			+20% Ice Damage
+Flawless Hardened Bindings			+100 Health
+Flawless Magnifying Bindings		+7% Crit Chance
+Flawless Moonlight Bindings			+20% Night Damage
+Flawless Mystic Bindings			+7% Magic Crit Chance
+Flawless Piercing Bindings			+20% Piercing Damage
+Flawless Rallying Bindings			+35% Physical Damage
+Flawless Restoring Bindings			+2 Mana Regen Per Sec
+Flawless Robust Bindings			+80 Health, +80 Mana
+Flawless Sage Bindings				+100 Mana
+Flawless Slaughtering Bindings		+20% Bleeding Damage
+Flawless Strengthening Bindings		+20% Health
+Flawless Sunlight Bindings			+20% Damage during Daytime
+Flawless Sustaining Bindings		+2 Health Regen
+Flawless Tormenting Bindings		+20% Damage vs. Heavily Wounded targets
+
+Basic Fulcrums
+Fulcrum						Effect
+Basic Charged Fulcrum		4 Lightning Damage, 3 Shocking/3
+Basic Damaging Fulcrum		5 Physical Damage
+Basic Flamed Fulcrum		4 Fire Damage, 3 Burning/5
+Basic Frosted Fulcrum		4 Ice Damage, 2 Freezing/2
+Basic Infected Fulcrum		6 Poison/5
+Basic Piercing Fulcrum		4 Piercing Damage
+Basic Sharpening Fulcrum	+5 Crit Damage
+Crude Fulcrum				3 Physical Damage
+
+Improved Fulcrums
+Fulcrum								Effect
+Improved Charged Fulcrum			6 Lightning Damage, 3 Shocking/4
+Improved Executioner's Fulcrum		+8% vs. Humanoids
+Improved Flamed Fulcrum				6 Fire Damage, 4 Burning/5
+Improved Frosted Fulcrum			6 Ice Damage, 3 Freezing/2
+Improved Infected Fulcrum			9 Poison Damage over 5 seconds
+Improved Illuminator's Fulcrum		+8% vs. Niskaru
+Improved Sharpening Fulcrum			+8% Crit Damage
+Improved Slaughtering Fulcrum		10 Bleeding/5
+
+Greater Fulcrums
+Fulcrum							Effect
+Greater Bloodseeker's Fulcrum	15% Chance to Steal 15 Health per Hit
+Greater Damaging Fulcrum		12 Physical Damage
+Greater Flamed Fulcrum			13 Fire Damage, 8 Burning/6
+Greater Illuminator's Fulcrum	+12% vs. Niskaru
+Greater Infected Fulcrum		19 Poison Damage over 6 seconds
+Greater Piercing Fulcrum		18 Piercing Damage
+
+Master Fulcrums
+Fulcrum							Effect
+Master Bloodseeker's Fulcrum	15% Chance to Steal 20 Health per Hit
+Master Charged Fulcrum			21 Lightning Damage, 10 Shocking/8
+Master Damaging Fulcrum			22 Physical Damage
+Master Executioner's Fulcrum	+16% vs. Humanoids
+Master Flamed Fulcrum			21 Fire Damage, 13 Burning/7
+Master Frosted Fulcrum			21 Ice Damage, 12 Freezing/5
+Master Infected Fulcrum			33 Poison/7
+Master Magnifying Fulcrum		+6% Crit Chance
+Master Piercing Fulcrum			23 Piercing Damage
+Master Pilager's Fulcrum		+16% vs. Beastsm, 16% vs. Constructs
+Master Ravenous Fulcrum			15% Manasteal 20
+Master Sharpening Fulcrum		+18% Critical Hit Damage
+
+Flawless Fulcrums
+Fulcrum								Effect
+Flawless Butcher's Fulcrum			+20% Damage vs. Kobolds and Murghan
+Flawless Bloodseeker's Fulcrum		15% Lifesteal 25
+Flawless Charged Fulcrum			30 Lightning Damage, 15 Shocking/10
+Flawless Damaging Fulcrum			30 Physical Damage
+Flawless Executioners Fulcrum		+20% vs. Humanoids
+Flawless Flamed Fulcrum				30 Fire Damage, 20 Burning/7
+Flawless Frosted Fulcrum			30 Ice Damage, 18 Freezing/6
+Flawless Illuminator's Fulcrum		+20% vs. Niskaru
+Flawless Infected Fulcrum			48 Poison Damage Over 7 Seconds
+Flawless Magnifying Fulcrum			+7% Crit Chance
+Flawless Piercing Fulcrum			25 Piercing Damage
+Flawless Pilager's Fulcrum			+20% vs. Beasts, +20% vs. Constructs
+Flawless Ravenous Fulcrum			15% Manasteal 25
+Flawless Sharpening Fulcrum			+25% Crit Damage
+Flawless Slaughtering Fulcrum		25 Bleeding Damage Over 5 Seconds
+
+Basic Grips
+Grip						Effect
+Basic Clarity Grip			+3% Physical Crit Chance
+Basic Damaging Grip			+10% Damage
+Basic Enchanted Grip		+5% Magic Crit Damage
+Basic Frosted Grip			+5% Ice Damage
+Basic Grip					+5 Health
+Basic Hardened Grip			+10 Health
+Basic Infected Grip			+5% Poison Damage
+Basic Rallying Grip			+5 Health, +5% Physical Damage
+Basic Robust Grip			+20 Health, +20 Mana
+Basic Sage Grip				+10 Mana
+Basic Slaughtering Grip		+5% Bleeding Damage
+Basic Strengthening Grip	+10% Health
+Basic Sustaining Grip		+0.1 Health Regen per Sec
+
+Improved Grips
+Grip						Effect
+Improved Arcane Grip		+7% Magic Damage
+Improved Charged Grip		+7% Lightning Damage
+Improved Damaging Grip		+14% Damage
+Improved Enchanted Grip		+7% Critical Hit Damage with Magic
+Improved Hardened Grip		+20 Health
+Improved Infected Grip		+7% Poison Damage
+Improved Magnifying Grip	+4% Crit Chance
+Improved Mystic Grip		+4% Chance to Critical Hit with Magic
+Improved Robust Grip		+30 Health, +30 Mana
+Improved Sage Grip			+20 Mana
+Improved Sunlight Grip		+7% Daytime Damage
+Improved Sustaining Grip	+0.5 Health Regen per Sec
+
+Greater Grips
+Grip						Effect
+Greater Charged Grip		+10% Lightning Damage
+Greater Clarity Grip		+5% Physical Crit Chance
+Greater Damaging Grip		+19% Damage
+Greater Divining Grip		+14% Mana
+Greater Enchanted Grip		+9% Magic Crit Damage
+Greater Hardened Grip		+45 Health
+Greater Magnifying Grip		+5% Crit Chance
+Greater Moonlight Grip		+5 Health, +10% Night Damage
+Greater Mystic Grip			+5% Magic Crit Chance
+Greater Rallying Grip		+5 Health, +10% Physical Damage
+Greater Robust Grip			+45 Health, +45 Mana
+Greater Sage Grip			+45 Mana
+Greater Strengthening Grip	+14% Health
+
+Master Grips
+Grip						Effect
+Master Assailing Grip		+15% vs. Healthy Enemies
+Master Clarity Grip			+6% Physical Crit Chance
+Master Diving Grip			+17% Mana
+Master Hardened Grip		+80 Health
+Master Moonlight Grip		+5 Health, +15% Damage at Night
+Master Piercing Grip		+5 Health, +15% Piercing Damage
+Master Restoring Grip		+1.5 Mana Regen
+Master Robust Grip			+60 Health, +60 Mana
+Master Sage Grip			+80 Mana
+Master Strengthening Grip	+17% Health
+Master Sustaining Grip		+1.5 Health Regen
+
+Flawless Grips
+Grip							Effect
+Flawless Assailing Grip			+20% Damage vs. Lightly Wounded
+Flawless Amplified Grip			+15% Physical Crit Damage
+Flawless Charged Grip			+20% Lightning Damage
+Flawless Clarity Grip			+7% to Critical Hit With Physical
+Flawless Damaging Grip			+30% to Damage
+Flawless Divine Grip			+20% Mana
+Flawless Enchanted Grip			+15% Critical Hit Damage With Magic
+Flawless Energizing Grip		(blacksmithing transfer technique, using Flawless Energizing Bindings via Glove) +2 Health Regen per Sec, +2 Mana Regen per Sec
+Flawless Flamed Grip			+20% Fire Damage
+Flawless Frosted Grip			+20% Ice Damage
+Flawless Hardened Grip			+100 Health
+Flawless Infected Grip			+20% to Poison Damage
+Flawless Magnifying Grip		+7% Crit Chance
+Flawless Moonlight Grip			+5 Health, +20% Night Damage
+Flawless Mystic Grip			+7 Chance to Critical Hit With Magic
+Flawless Piercing Grip			+5 to Health, 20% to Piercing Damage
+Flawless Rallying Grip			+5 Health, +35% Physical Damage
+Flawless Restoring Grip			+2 to Mana Regen Per Sec
+Flawless Robust Grip			+80 Health, +80 Mana
+Flawless Sage Grip				+100 Mana
+Flawless Slaughtering Grip		+20% Bleeding Damage
+Flawless Strengthening Grip		+20% Health
+Flawless Sunlight Grip			+20% Damage During Daytime
+Flawless Sustaining Grip		+2 Health Regen
+Flawless Tormenting Grip		+20% Damage to Heavily Wounded Targets
+
+Basic Handles
+Handle						Effect
+Basic Flamed Handle			4 Fire Damage, 3 Burning/5
+Basic Frosted Handle		4 Ice Damage, 2 Freezing/2
+Basic Infected Handle		6 Poison/5
+Basic Sharpening Handle		+5% Crit Damage
+Simple Handle				3 Physical Damage
+
+Improved Handles
+Handle							Effect
+Improved Bloodseeker's Handle	15% Lifesteal 10
+Improved Executioner's Handle	+8% Damage vs. Humanoids
+Improved Frosted Handle			6 Ice Damage, 3 Freezing/2
+Improved Illuminator's Handle	+8% Damage vs. Niskaru
+Improved Pillager's Handle		+8% vs. Beasts, +8% vs. Constructs
+Improved Slaughtering Handle	10 Bleeding/5
+
+Greater Handles
+Handle							Effect
+Greater Bloodseeker's Handle	15% Lifesteal 15
+Greater Butcher's Handle		+12% Damage vs. Kobolds and Murghan
+Greater Damaging Handle			12 Physical Damage
+Greater Flamed Handle			13 Fire Damage, 8 Burning Damage over 6 seconds
+Greater Frosted Handle			13 Ice Damage, 6 Freezing/3
+Greater Illuminator's Handle	+12% Damage vs. Niskaru
+Greater Infected Handle			19 Poison Damage over 6 seconds
+Greater Magnifying Handle		+5% Chance to Critical Hit
+Greater Piercing Handle			18 Piercing Damage
+Greater Pillager's Handle		+12% vs. Beasts, +12% vs. Constructs
+Greater Sharpening Handle		+12% Crit Damage
+
+Master Handles
+Handle							Effect
+Master Bloodseeker's Handle		15% Lifesteal 20
+Master Charged Handle			21 Lightning Damage, 10 Shocking over 8 seconds
+Master Damaging Handle			22 Physical Damage
+Master Sharpening Handle		+18% Crit Damage
+
+Flawless Handles
+Handle							Effect
+Flawless Bloodseeker's Handle	15% Lifesteal 25
+Flawless Charged Handle			30 Lightning Damage, 15 Shocking/10secs
+Flawless Damaging Handle		30 Physical Damage
+Flawless Executioner's Handle	+20% Damage vs. Humanoids
+Flawless Frosted Handle			30 Ice Damage, 18 Freezing/6secs
+Flawless Illuminator's Handle	+20% Damage vs. Niskaru
+Flawless Infected Handle		48 Poison/7secs
+Flawless Piercing Handle		25 Piercing Damage
+Flawless Sharpening Handle		+25% Crit Damage
+Flawless Slaughtering Handle	25 Bleeding/5secs
+Flawless Flamed Handle 			30 Fire Damage, 20 burning/7secs
+
+Basic Hilts
+Hilt					Effect
+Basic Charged Hilt		4 Lightning Damage, 3 Shocking/3
+Basic Damaging Hilt		5 Physical Damage
+Basic Flamed Hilt		4 Fire Damage, 3 Burning/5
+Basic Frosted Hilt		4 Ice Damage, 2 Freezing/2
+Basic Infected Hilt		6 Poison/5
+Basic Magnifying Hilt	+3% Chance to Critical Hit
+Basic Piercing Hilt		4 Piercing Damage
+Basic Sharpening Hilt	+5 Crit Damage
+Crude Hilt				3 Physical Damage
+
+Improved Hilts
+Hilt							Effect
+Improved Charged Hilt			6 Lightning Damage, 3 Shocking/4
+Improved Executioner's Hilt		+8% vs. Humanoids
+Improved Flamed Hilt			6 Fire Damage, 4 Burning/5
+Improved Frosted Hilt			6 Ice Damage, 3 Freezing/2
+Improved Illuminator's Hilt		+8% vs. Niskaru
+Improved Piercing Hilt			6 Piercing Damage
+Improved Ravenous Hilt			15% Chance to Steal 10 Mana per Hit
+Improved Sharpening Hilt		+8% Crit Damage
+Improved Slaughtering Hilt		10 Bleeding/5
+
+Greater Hilts
+Hilt							Effect
+Greater Charged Hilt			13 Lightning Damage, 7 Shocking Damage over 6 seconds
+Greater Damaging Hilt			12 Physical Damage
+Greater Executioner's Hilt		+12% Damage vs. Humanoids
+Greater Flamed Hilt				13 Fire Damage, 8 Burning/6
+Greater Illuminator's Hilt		+12% vs. Niskaru
+Greater Infected Hilt			19 Poison Damage over 6 seconds
+Greater Piercing Hilt			18 Piercing Damage
+
+Master Hilts
+Hilt							Effect
+Master Bloodseeker's Hilt		15% Chance to Steal 20 Health per Hit
+Master Charged Hilt				21 Lightning Damage, 10 Shocking/8
+Master Damaging Hilt			22 Physical Damage
+Master Executioner's Hilt		+16% vs. Humanoids
+Master Flamed Hilt				21 Fire Damage, 13 Burning/7
+Master Frosted Hilt				21 Ice Damage, 12 Freezing/5
+Master Infected Hilt			33 Poison/7
+Master Magnifying Hilt			+6% Crit Chance
+Master Piercing Hilt			23 Piercing Damage
+Master Pilager's Hilt			+16% vs. Beasts, +16% vs. Constructs
+Master Ravenous Hilt			15% Manasteal 20
+Master Sharpening hilt			+18% Critical Hit Damage
+
+Flawless Hilts
+Hilt							Effect
+Flawless Butcher's Hilt	 		+20% Damage vs. Kobolds and Murghan
+Flawless Bloodseeker's Hilt		15% Lifesteal 25
+Flawless Charged Hilt			30 Lightning Damage, 15 Shocking/10
+Flawless Damaging Hilt			30 Physical Damage
+Flawless Executioners Hilt		+20% vs. Humanoids
+Flawless Flamed Hilt			30 Fire Damage, 20 Burning/7
+Flawless Frosted Hilt			30 Ice Damage, 18 Freezing/6
+Flawless Illuminator's Hilt		+20% vs. Niskaru
+Flawless Infected Hilt			48 Poison Damage Over 7 Seconds
+Flawless Magnifying Hilt		+7% Crit Chance
+Flawless Piercing Hilt			25 Piercing Damage
+Flawless Pilager's Hilt			+20% vs. Beasts, +20% vs. Constructs
+Flawless Ravenous Hilt			15% Manasteal 25
+Flawless Sharpening Hilt		+25% Crit Damage
+
+
+Basic Lining
+Lining						Effect
+Basic Armored Lining		+10% Armor
+Basic Charge Ward Lining	+5% Lightning Resistance
+Basic Displacing Lining		+2% Physical Resistance
+Basic Expansive Lining		+1 XP Bonus
+Basic Fire Ward Lining		+5% Fire Resist
+Basic Immunity Lining		+5% Poison Resistance
+Basic Mending Lining		+5% Bleeding Resist
+Basic Prosperous Lining		+3% Gold Drops
+Basic Rigid Lining			+8 Armor
+Threadbare Lining			+4 Armor
+
+Improved Lining
+Lining							Effect
+Improved Charge Ward Lining		+7% Lightning Resist
+Improved Everlasting Lining		+5% Damage Resist
+Improved Expansive Lining		+2% XP Bonus
+Improved Fire Ward Lining		+7% Fire Resist
+Improved Frost Ward Lining		+7% Frost Resist
+Improved Reinforced Lining		+15% Block Efficacy
+Improved Rigid Lining			+11 Armor
+
+Greater Lining
+Lining						Effect
+Greater Armored Lining		+20% Armor
+Greater Expansive Lining	+4% Experience Bonus
+Greater Fire Ward Lining	+9% Fire Resist
+Greater Fortified Lining	+25% Melee Block Efficacy, +25% Ranged Block Efficacy, +25% Magic Block Efficacy
+Greater Frost Ward Lining	+9% Frost Resist
+Greater Immunity Lining		+15% Poison Resist
+Greater Mending Lining		+12% Bleeding Resistance
+Greater Prosperous Lining	+6% Gold Drops
+Greater Reinforced Lining	+20% Block Efficacy
+Greater Rigid Lining		+19 Armor
+
+Master Lining
+Lining						Effect
+Master Charge Ward Lining	+12% Lightning Resist
+Master Displacing Lining	+8% Physical Resistance
+Master Expansive Lining		+6% Experience Bonus
+Master Everlasting Lining	9% Damage Resist
+Master Fire Ward Lining		+12% Fire Resist
+Master Fortified Lining		+25% Melee Block Efficacy, +25% Ranged Block Efficacy, +25% Magic Block Efficacy
+Master Frost Ward Lining	+12% Frost Resist
+Master Immunity Lining		+20% Poison Resistance
+Master Mending Lining		+16% Bleeding Resistance
+Master Rigid Lining			+29 Armor
+
+Flawless Lining
+Lining							Effect
+Flawless Armored Lining			+30% Armor
+Flawless Charge Ward Lining		+15% Lightning Resist
+Flawless Displacing Lining		+10% Physical Resistance
+Flawless Expansive Lining		+8% Experience
+Flawless Fire Ward Lining		+15% Fire Resist
+Flawless Fortified Lining		+30% Melee Block Efficacy, +30% Ranged Block Efficacy, +30% Magic Block Efficacy
+Flawless Frost Ward Lining		+15% Ice Resist
+Flawless Immunity Lining		+25% Poison Resistance
+Flawless Mending Lining			+20% Bleeding Resistance
+Flawless Reinforced Lining		+30% Block Efficacy
+Flawless Rigid Lining			+35 Armor
+Flawless Warding Lining			+12% Elemental Resist
+
+Basic Rivets
+Rivets						Effect
+Basic Arcane Rivets			+5% Damage with Magic
+Basic Charged Rivets		+5% Lightning Damage
+Basic Clarity Rivets		+3% Chance to Critical Hit with Physical
+Basic Divine Rivets			+10% Mana
+Basic Energizing Rivets		+0.1 Health Regen, +0.2 Mana Regen
+Basic Flamed Rivets			+5% Fire Damage
+Basic Frosted Rivets		+5% Ice Damage
+Basic Hardened Rivets		+10 Health
+Basic Mystic Rivets			+3% Magic Crit Chance
+Basic Rivets				+5 Health
+Basic Robust Rivets			+20 Health, +20 Mana
+Basic Sage Rivets			+10 Mana
+Basic Slaughtering Rivets	+5% Bleeding Damage
+Basic Sustaining Rivets		+0.1 Health Regen
+Weak Rivets					+5 Health
+
+Improved Rivets
+Rivets							Effect
+Improved Amplified Rivets		+7% Critical Hit Damage with Physical
+Improved Arcane Rivets			+7% Magic Damage
+Improved Assailing Rivets		+8% Damage vs. lightly wounded targets
+Improved Flamed Rivets			+7% Fire Damage
+Improved Hardened Rivets		+20 Health
+Improved Infected Rivets		+7% Poison Damage
+Improved Magnifying Rivets		+4% Crit Chance
+Improved Mystic Rivets			+4% Magic Crit Chance
+Improved Piercing Rivets		+7% Piercing Damage
+Improved Restoring Rivets		+0.5 Mana Regen
+Improved Robust Rivets			+30 Health, +30 Mana
+Improved Sage Rivets			+20 Mana
+Improved Slaughtering Rivets	+7% Bleeding Damage
+Improved Strengthening Rivets	+12% Health
+
+Greater Rivets
+Rivets							Effect
+Greater Amplified Rivets		+9% Critical Hit Damage with Physical
+Greater Assailing Rivets		+11% Damage vs. lightly wounded targets
+Greater Clarity Rivets			+5% Chance to Critical Hit with Physical
+Greater Divine Rivets			+14% Mana
+Greater Energizing Rivets		+1 Health Regen per Secб +1 Mana Regen per Sec
+Greater Flamed Rivets			+10% Fire Damage
+Greater Frosted Rivets			+10% Ice Damage
+Greater Hardened Rivets			+45 Health
+Greater Infected Rivets			+11% Poison Damage
+Greater Magnifying Rivets		+5% Crit Chance
+Greater Mystic Rivets			+5% Magic Crit Chance
+Greater Piercing Rivets			+10% Piercing Damage
+Greater Rallying Rivets			+10% Physical Damege
+Greater Restoring Rivets		+1 Mana Regen
+Greater Robust Rivets			+45 Health, +45 Mana
+Greater Sage Rivets				+45 Mana
+Greater Strengthening Rivets	+14% Health
+Greater Tormenting Rivets		+11% vs. Wounded Enemies
+
+Master Rivets
+Rivets							Effect
+Master Divine Rivets			+17% Mana
+Master Enchanted Rivets			+12% Critical Hit Damage with Magic
+Master Hardened Rivets			+80 Health
+Master Infected Rivets			+15% Poison Damage
+Master Magnifying Rivets		+6% Crit Chance
+Master Moonlight Rivets			+15% Night Damage
+Master Piercing Rivets			+15% Piercing Damage
+Master Mystic Rivets			+6% Chance to Critical Hit with Magic
+Master Rallying Rivets			+20% Physical Damege
+Master Restoring Rivets			+1.5 Mana Regen
+Master Robust Rivets			+60 Health, +60 Mana
+Master Sage Rivets				+80 Mana
+Master Slaughtering Rivets		+15% Bleeding Damage
+Master Strengthening Rivets		+17% Health
+Master Sustaining Rivets		+1.5 Health Regen
+Master Energizing Rivets		+1.5 Health Regen, +1.5 Mana Regen
+Master Damaging Rivets			+24% Damage
+
+Flawless Rivets
+Rivets							Effect
+Flawless Charged Rivets			+20% Lightning Damage
+Flawless Clarity Rivets			+7% Chance to Critical Hit with Physical
+Flawless Damaging Rivets		+30% Damage
+Flawless Divine Rivets			+20% Mana
+Flawless Enchanted Rivets		+15% Critical Hit Damage with Magic
+Flawless Flamed Rivets			+20% Fire Damage
+Flawless Hardened Rivets		+100 Health
+Flawless Infected Rivets		+20% Poison Damage
+Flawless Magnifying Rivets		+7% Crit Chance
+Flawless Moonlight Rivets		+20% Night Damage
+Flawless Mystic Rivets			+7% Magic Crit Chance
+Flawless Piercing Rivets		+20% Piercing Damage
+Flawless Restoring Rivets		+2 Mana Regen
+Flawless Robust Rivets			+80 Health, +80 Mana
+Flawless Sage Rivets			+100 Mana
+Flawless Strengthening Rivets	+20% Health
+Flawless Sustaining Rivets		+2 Health Regen
+
+Basic Shafts
+Shaft						Effect
+Basic Bloodseeker's Shaft	15% Lifesteal 5
+Basic Charged Shaft			4 Lightning Damage, 3 Shocking/3
+Basic Damaging Shaft		5 Physical Damage
+Basic Executioner's Shaft	+6% Damage vs. Humanoids
+Basic Flamed Shaft			4 Fire Damage, 3 Burning/5
+Basic Frosted Shaft			4 Ice Damage, 2 Freezing/2
+Basic Pillager's Shaft		+6% vs. Beasts, +6% vs. Constructs
+Basic Slaughtering Shaft	5 Bleeding/5
+Simple Shaft				3 Physical Damage
+
+Improved Shafts
+Shaft							Effect
+Improved Bloodseeker's Shaft	15% Chance to Steal 10 Health per Hit
+Improved Butcher's Shaft		+8% Damage vs. Kobolds and Murghan
+Improved Charge Ward Trim		+7% Lightning Resistance
+Improved Charged Shaft			6 Lightning Damage, 3 Shocking Damage over 4 seconds
+Improved Damaging Shaft			7 Physical Damage
+Improved Frost Ward Lining		+7% Ice Resistance
+Improved Illuminator's Shaft	+8% vs. Niskaru
+Improved Infected Shaft			9 Poison/5
+Improved Piercing Shaft			6 Piercing Damage
+
+Greater Shafts
+Shaft							Effect
+Greater Bloodseeker's Shaft		15% Lifesteal 15
+Greater Damaging Shaft			12 Physical Damage
+Greater Flamed Shaft			13 Fire Damage, 8 Burning/6
+Greater Frosted Shaft			13 Ice Damage, 6 Freezing/3
+Greater Illuminator's Shaft		+12% vs. Niskaru
+Greater Infected Shaft			19 Poison/6
+Greater Magnifying Shaft		+5% Crit Chance
+Greater Piercing Shaft			18 Piercing Damage
+Greater Pillager's Shaft		+12% vs. Beasts, +12% vs. Constructs
+Greater Ravenous Shaft			15% Chance to Steal 15 Mana per Hit
+Greater Sharpening Shaft		+12% Critical Hit Damage
+Greater Slaughtering Shaft		15 Bleeding Damage over 5 seconds
+
+Master Shafts
+Shaft						Effect
+Master Charged Shaft		21 Lightning Damage, 10 Shocking/8
+Master Flamed Shaft			21 Fire Damage, 13 Burning Damage over 7 seconds
+Master Frosted Shaft		21 Ice Damage, 12 Freezing/5
+Master Piercing Shaft		23 Piercing Damage
+Master Ravenous Shaft		15% Chance to Steal 20 Mana per Hit
+Master Sharpening Shaft		+18% Critical Hit Damage
+
+Flawless Shafts
+Shaft							Effect
+Flawless Charged Shaft			30 Lightning Damage, 15 Shocking/10
+Flawless Damaging Shaft			30 Physical Damage
+Flawless Executioner's Shaft	+20% vs. Humanoids
+Flawless Frosted Shaft			30 Ice Damage, 18 Freezing/6
+Flawless Flamed Shaft			30 Fire Damage, 20 Burning/7
+Flawless Illuminator's Shaft	+20% vs. Niskaru
+Flawless Infected Shaft			48 Poison/7
+Flawless Magnifying Shaft		+7% Critical Hit Chance
+Flawless Pillager's Shaft		+20% vs. Beasts, +20% vs. Constructs
+Flawless Ravenous Shaft			15% Manasteal 25
+Flawless Sharpening Shaft		+25% Crit Damage
+Flawless Slaughtering Shaft		25 Bleeding/5
+
+Basic StringEdit
+String						Effect
+Basic Armored String		+10% Armor
+Basic Rigid String			+8 Armor
+Basic Expansive String		+1% Experience Bonus
+Basic Frost Ward String		+5% Ice Resist
+Basic Prosperous String		+3% Gold Drops
+Basic Reinforced String		+10% Block Efficacy
+Novice String				+4 Armor
+
+Improved String
+String							Effect
+Improved Armored String			+15% Armor
+Improved Everlasting String		+5% Damage Resist
+Improved Fire Ward String		+7% Fire Resist
+Improved Frost Ward String		+7% Ice Resist
+Improved Immunity String		+10% Poison Resistance
+Improved Prosperous String		+4% Gold Drops
+Improved Rigid String			+11 Armor
+Improved Warding String			+5% Elemental Resist
+
+Greater String
+String							Effect
+Greater Armored String			+20% Armor
+Greater Everlasting String		+7% Damage Resist
+Greater Fire Ward String		+9% Fire Resist
+Greater Fortified String		+20% Melee Block Efficiency, +20% Ranged Block Efficiency, +20% Magic Block Efficiency
+Greater Frost Ward String		+9% Ice Resist
+Greater Rigid String			+19 Armor
+Greater Warding String			+7% Elemental Resist
+
+Master String
+String						Effect
+Master Fire Ward String		+12% Fire Resist
+Master Reinforced String	+25% Block Efficacy
+
+Flawless String
+String						Effect
+Flawless Armored String		+20% Armor
+Flawless Expansive String	+8% Experience Bonus
+Flawless Fire Ward String	+15% Fire Resist
+Flawless Immunity String	+25% Poison Resist
+Flawless Warding String		+12% Elemental Resistance
+
+Basic Trim
+Trim						Effect
+Basic Expansive Trim		+1% Experience Bonus
+Basic Fire Ward Trim		+5% Fire Resist
+Basic Fortified Trim		+10% Melee Block Efficacy, +10% Ranged Block Efficacy, +10% Magic Block Efficacy
+Basic Frost Ward Trim		+5% Ice Resist
+Basic Immunity Trim			+5% Poison Resist
+Basic Charge Ward Trim		+5% Lightning Resist
+Basic Reinforced Trim		+10% Block Efficacy
+Basic Rigid Trim			+8 Armor
+Basic Trim					+4 Armor
+
+Improved Trim
+Trim						Effect
+Improved Displacing Trim	+4% Physical Resist
+Improved Expansive Trim		+2% XP Bonus
+Improved Fortified Trim		+15% Melee Block Efficacy, +15% Ranged Block Efficacy, +15% Magic Block Efficacy
+Improved Prosperous Trim	+4% Gold Drops
+Improved Reinforced Trim	+15% Block Efficacy
+Improved Rigid Trim			+11 Armor
+Improved Warding Trim		+5% Elemental Resist
+
+Greater Trim
+Trim						Effect
+Greater Charge Ward Trim	+9% Lightning Resist
+Greater Displacing Trim		+6% Physical Resistance
+Greater Fortified Trim		+20% Melee Block Efficacy, +20% Ranged Block Efficacy, +20% Magic Block Efficacy
+Greater Reinforced Trim		+20% Block Efficacy
+Greater Rigid Trim			+19 Armor
+
+Master Trim
+Trim						Effect
+Master Charge Ward Trim		+12% Lightning Resist
+Master Fortified Trim		+25% Melee Block Efficacy, +25% Ranged Block Efficacy, +25% Magic Block Efficacy
+Master Rigid Trim			+29 Armor
+Master Reinforced Trim		+25% Block Efficacy
+Master Armored Trim			+20% Armor
+
+Flawless Trim
+Trim						Effect
+Flawless Armored Trim		+20% Armor
+Flawless Displacing Trim	10% Physical Resist
+Flawless Everlasting Trim	+12% Damage Resist
+Flawless Expansive Trim		+8% Experience
+Flawless Fire Ward Trim		+15% Fire Resist
+Flawless Fortified Trim		+30% Melee Block Efficacy, +30% Ranged Block Efficacy, +30% Magic Block Efficacy
+Flawless Reinforced Trim	+30% Block Efficacy
+Flawless Rigid Trim			+35 Armor
+
+
+**** sagecraft ****
+1	Better quality shards drop more frequently.
+2	Milestone: You can create powerful gems using lambent quality shards. Better quality shards drop more frequently.
+3	Milestone: You can strengthen shards by combining two of the same quality to get one of the next highest quality. Better quality shards drop more frequently.
+4	Better quality shards drop more frequently.
+5	Better quality shards drop more frequently.
+6	Milestone: You can create more powerful gems using pristine quality shards. Better quality shards drop more frequently.
+7	Better quality shards drop more frequently.
+8	Milestone: You can craft epic gems. Better quality shards drop more frequently.
+9	Better quality shards drop more frequently.
+10	Milestone: You can remove socketed gems from any socket at a Sagecraft Altar. Better quality shards drop more frequently.
+
+
+List of Armor GemsEdit
+Below is a list of the Armor Gems available in Kingdoms of Amalur: Reckoning.
+
+Note: Shard combinations used to craft each gem are located on their respective pages.
+
+
+**** detect hidden ****
+
+1	Milestone: Enemies and other characters are displayed on the mini-map. Increases the amount of gold found as you explore the world.
+2	Milestone: Hidden treasures are displayed on the minimap and revealed when in range. Increases the amount of gold found as you explore the world.
+3	Milestone: Enemies facing direction is displayed on the minimap. Increases the amount of gold found as you explore the world.
+4	Milestone: You can disarm traps. Increases the amount of gold found as you explore the world.
+5	Milestone: Secret doors are displayed on the mini-map and revealed when in range. Increases the amount of gold found as you explore the world.
+6	Increases the amount of gold found as you explore the world.
+7	Milestone: Traps are displayed on the minimap. Increases the amount of gold found as you explore the world.
+8	Milestone: Traps can be disarmed and salvaged for components. Increases the amount of gold found as you explore the world.
+9	Increases the amount of gold found as you explore the world.
+10	Milestone: Lorestones and treasures are displayed on the mini-map. Corpses and skeletons containing loot are not shown. Increases the amount of gold found as you explore the world.
+
+
+**** Dispeling ****
+1	Decreased difficulty when dispelling magical Wards.
+2	Milestone: You can fail to dispel a ward once before it explodes. Decreased difficulty when dispelling magical Wards.
+3	Decreased difficulty when dispelling magical Wards.
+4	Milestone:Dark sigils are removed from Wards. Decreased difficulty when dispelling magical Wards.
+5	Decreased difficulty when dispelling magical Wards.
+6	Decreased difficulty when dispelling magical Wards.
+7	Milestone:You can fail to dispel a Ward twice before it explodes. Decreased difficulty when dispelling magical Wards.
+8	Decreased difficulty when dispelling magical Wards.
+9	Decreased difficulty when dispelling magical Wards.
+10	Milestone: Ward glyphs regenerate much more slowly. Decreased difficulty when dispelling magical Wards.
+
+
+**** Lockpicking ****
+1	Decreases the difficulty when lockpicking.
+2	Decreases the difficulty when lockpicking.
+3	Decreases the difficulty when lockpicking
+4	Milestone: You can always successfully force very easy locks. Decreases the difficulty when lockpicking.
+5	Decreases the difficulty when lockpicking.
+6	Decreases the difficulty when lockpicking.
+7	Milestone: You can always successfully force easy locks. Decreases the difficulty when lockpicking.
+8	Milestone: You can always successfully force average locks. Decreases the difficulty when lockpicking.
+9	Decreases the difficulty when lockpicking.
+10	Milestone: You can always successfully force hard locks. Decreases the difficulty when lockpicking.
+
+
+**** Mercanite ****
+1	Improves buy and sell gold costs at merchants.
+2	Improves buy and sell gold costs at merchants.
+3	Milestone: When you destroy a junked item, you recover 15% of its value. Improves buy and sell gold costs at merchants.
+4	Improves buy and sell gold costs at merchants.
+5	Improves buy and sell gold costs at merchants.
+6	Milestone: When you destroy a junked item, you recover 30% of its value. Improves buy and sell gold costs at merchants.
+7	Improves buy and sell gold costs at merchants.
+8	Improves buy and sell gold costs at merchants.
+9	Improves buy and sell gold costs at merchants.
+10	Milestone: You may sell stolen items to any merchant, not just fences. Improves buy and sell gold costs at merchants.
+
+
+**** Persuade ****
+1	Milestone: Bribe costs for crime are decreased by 20%. Increases your chance to persuade others to your way of thinking
+2	Increases your chance to persuade others to your way of thinking
+3	Milestone: Bribe costs for crime are decreased by 30%
+4	Increases your chance to persuade others to your way of thinking
+5	Increases your chance to persuade others to your way of thinking
+6
+7	Increases your chance to persuade others to your way of thinking
+8	Increases your chance to persuade others to your way of thinking
+9	Increases your chance to persuade others to your way of thinking
+10
+
+
+**** Stealth ****
+1	Milestone: -5% Sight range on unaware NPCs while in stealth. Increases the duration of time you can remain hidden before others will notice you.
+2	Increases the duration of time you can remain hidden before others will notice you.
+3	Milestone: -10% Sight range on unaware NPCs while in stealth. Increases the duration of time you can remain hidden before others will notice you.
+4	Increases the duration of time you can remain hidden before others will notice you.
+5	Milestone: -15% Sight range on unaware NPCs while in stealth. Increases the duration of time you can remain hidden before others will notice you.
+6	Increases the duration of time you can remain hidden before others will notice you.
+7	Milestone: -20% Sight range on unaware NPCs while in stealth. Increases the duration of time you can remain hidden before others will notice you.
+8	Increases the duration of time you can remain hidden before others will notice you.
+9	Milestone: -30% Sight range on unaware NPCs while in stealth. Increases the duration of time you can remain hidden before others will notice you.
+10	Milestone: -40% Sight range on unaware NPCs while in stealth. Increases the duration of time you can remain hidden before others will notice you.
+
+**** Finesse ability ****
+ROW 1
+
+Precise Weaponry I
+[Weapon Attacks] 3 Levels
+Unlocks Charge special attacks for Daggers and Faeblades.
+Daggers: Shadow Strike - Hold and release the Daggers to begin a dashing combo that can be chained up to 5 times.
+Faeblade: Twisted Claw - Hold and release the Faeblades attack to spiral through your enemies.
+1	Unlocks Charge special attacks for Daggers and Faeblades.
+		Shadow Strike - Hold and release the Daggers to begin a dashing combo that can be chained up to 5 times.
+		Twisted Claw - Hold and release the Faeblades attack to spiral through your enemies.
+2	Shadow Strike and Twisted Claw apply an additional damage over time effect.
+3	Shadow Strike and Twisted Claw generate extra Fate.
+
+Dagger MasteryEdit
+[Passive] 6 Levels
+Your prowess with Daggers lets you get the most out of every cut and thrust.
+Adds Physical Damage to Daggers and an overall Daggers damage boost.
+A Finesse ability that adds Physical Damage to Daggers and an overall Daggers damage boost.
+
+Level	Physical Damage with Daggers	Bonus Damage with Daggers
+1		+2								+5%
+2		+3								+10%
+3		+4								+15%
+4		+6								+20%
+5		+8								+25%
+6		+10								+30%
+
+Longbow Mastery
+[Passive] 6 Levels
+Your skill at archery grants you a large bonus to damage while using a Longbow and increases the number of arrows that can be fired before reloading your quiver.
+Adds Physical Damage to Longbows and an overall Longbow damage boost. Increases the number of arrows in your quiver.
+Longbow Mastery is a Finesse-based ability that allows for the Fateless One to wield bows more effectively, granting a large bonus to damage while using a Longbow and increases in the number of arrows that can be fired before reloading their quiver. It also adds Physical Damage to Longbows, an overall Longbow damage boost and the number of arrows in your quiver.
+Note that unlocking this ability increases your maximum arrow stock by 1.
+
+Level	Physical Damage with Longbows	Bonus Damage with Longbows
+1		+2								+5%
+2		+3								+10%
+3		+4								+15%
+4		+5								+20%
+5		+6								+25%
+6		+7								+30%
+
+Shadow FlareEdit
+[Active] 5 Levels
+Weaving a burst of shadow magic to wound and stagger enemies in an arc before you. Quickly press the button again to throw a volley of shadowy blades, dealing Pierce and Bleeding Damage.
+
+Shadow Flare is a Finesse ability with two-part attack. 
+Attack 1 staggers targets a few meters in front of you and deals Physical Damage.
+Tap the ability again and a number of blade projectiles each deal Piercing Damage and Bleeding Damage.
+Works well over an area or when fighting large enemies up close.
+
+Level	Attack 1 Range	Attack 1 Physical Damage	Attack 1 Cost	Attack 2 # Projectiles	Attack 2 Piercing Damage	Attack 2 Bleeding Damage	Attack 2 Cost
+1		4 meters		3							5 mana			3						20							10 over 5s					5 mana
+2		5 meters		5							7 mana			3						35							10 over 5s					10 mana
+3		5 meters		8							10 mana			5						50							12 over 6s					15 mana
+4		6 meters		12							15 mana			5						65							12 over 6s					20 mana
+5		6 meters		17							20 mana			5						70							14 over 7s					25 mana
+
+Assassin's ArtEdit
+[Passive] 6 Levels
+Your deadly grace allows you to deal tremendous amounts of damage from stealth. Unlocks new sneak attacks with Daggers or Faeblades that can instantly kill an unaware enemy if you deal enough damage.
+Assassin's Art unlocks new sneak attacks with Daggers or Faeblades that can instantly kill an unaware enemy if you deal enough damage. Also increases the damage of these sneak attacks and all critical strike damage dealt on unaware enemies while in stealth.
+
+Level	Critical Damage when attacking from Stealth		Increased sneak attack damage
+1		+10%											+0%
+2		+20%											+30%
+3		+30%											+60%
+4		+40%											+90%
+5		+50%											+120%
+6		+60%											+150%
+
+Precise Weaponry II
+Requires 5 points in Finesse abilities (Tier 2)
+Requires Precise Weaponry I
+[Weapon Attacks] 3 Levels
+1	Unlocks Delayed special attacks for Daggers and Faeblades.
+		Crossfire - A delayed attack with the Daggers that stabs and slices. Timing the second attack perfectly guarantees a critical hit.
+		Talon Strikes - A delayed attack with the Faeblades that launches your enemy into the air.
+2	Both Crossfire and Talon Strikes apply an additional damage over time effect.
+3	Both Crossfire and Talon Strikes generate extra Fate.
+
+Faeblade MasteryEdit
+[Passive] 6 Levels
+Requires 5 points in Finesse abilities (Tier 2)
+Diligent practice has granted you mastery over the Faeblades, chief weapon of the Summer Court Fae.
+Adds Physical Damage to Faeblades and an overall Faeblade damage boost.
+Faeblade Mastery is a Finesse-based ability that allows for the character to have more powerful Faeblade attacks by adding Physical Damage and an overall damage boost to Faeblades.
+
+Level	Physical Damage with Faeblades		Bonus Damage with Faeblades
+1		+2									+5%
+2		+3									+10%
+3		+4									+15%
+4		+5									+20%
+5		+6									+25%
+6		+7									+30%
+
+DrawpowerEdit
+[Passive] 5 Levels
+Requires 5 points in Finesse abilities (Tier 2)
+Requires Longbow Mastery
+With your incredible drawpower, each arrow you fire can penetrate even the thickest armor or carapace. Also Increases the size of your quiver.
+Drawpower is a Finesse ability that increases Piercing Damage with Longbows. Unlocking this ability increases the size of your quiver by one.
+
+Level	Piercing Damage with Longbows	Bonus Piercing Damage with Longbows
+1		+1								+9%
+2		+2								+12%
+3		+3								+15%
+4		+4								+18%
+5		+5								+21%
+
+Envenomed EdgeEdit
+[Active - Sustained] 6 Levels
+Requires 5 points in Finesse abilities (Tier 2)
+The careful application of vile poisons to all your edged weapons and arrowheads allows you to weaken your opponents.
+Envenomed Edge is a Finesse ability that adds Poison Damage to all edged-weapon attacks. "Edged weapons" means: Daggers, Faeblades, Longswords, Greatswords, and Chakrams.[1]
+Note that at all levels there is a 15% chance for the enemy to be poisoned for 5 seconds and the ability has a sustained mana cost of 25% of your maximum Mana.
+
+Level	Poison Damage Dealt
+1		10
+2		20
+3		30
+4		40
+5		50
+6		60
+
+Frost TrapEdit
+[Active] 4 Levels
+Requires 5 points in Finesse abilities (Tier 2)
+Plant a Frost Trap which causes Ice and Freezing damage to all nearby enemies when it explodes. A maximum of 4 traps can be placed at a time.
+Frost Trap is a Finesse-based ability where the character plants a trap that, when it explodes, causes freezing and ice damage to all nearby enemies. Up to four traps can be set at once.
+
+Level	Ice Damage	Freezing Damage		Mana cost
+1		30			4 over 2 seconds	20
+2		35			6 over 3 seconds	25
+3		40			10 over 4 seconds	30
+4		45			12 over 5 seconds	35
+
+ROW 3
+Arrow StormEdit
+[Weapon Attacks] 3 Levels
+Requires 20 points in Finesse abilities (Tier 3)
+Requires Longbow Mastery
+Requires Drawpower
+Your skill with the Longbow allows you to fire a volley of arrows into the sky, raining death down on your foes. Also Increases the size of your quiver.
+Arrow Storm is a Finesse-based ability where the character shoots multiple arrows into the air, having them rain down on enemies. The ability also increases the size of the quiver.
+
+Level 1 unlocks the Arrow Storm move. 
+Levels 2 and 3 increase its damage by 20% and 40%, respectively; 
+Unlocking this ability increases the size of your quiver by one.
+
+InoculationEdit
+[Passive] 5 Levels
+Requires 20 points in Finesse abilities (Tier 3)
+Requires Envenomed Edge
+Your extensive experience with Poisons grants you heightened resistance to their effects.
+noculation is a Finesse ability that increases your resistance to Poison Damage.
+
+Level	Increased Poison Resistance
+1		+10%
+2		+20%
+3		+30%
+4		+40%
+5		+50%
+
+Icy ExplosionEdit
+[Upgrade] 5 Levels
+Requires 20 points in Finesse abilities (Tier 3)
+Requires Frost Trap
+Your roguish ingenuity allows you to build Frost Traps deal additional damage and disorient your enemies.
+Icy Explosion is a Finesse-based ability that makes Frost Traps both inflict more damage and stun enemies.
+
+Level	Increased Frost Trap damage		Chance to Stun	Stun Duration (seconds)
+1		+10								20%				3
+2		+15								25%				3
+3		+20								30%				4
+4		+25								35%				4
+5		+30								40%				5
+
+ LungeEdit
+[Active] 5 Levels
+Requires 20 points in Finesse abilities (Tier 3)
+Lunge past your foes with preternatural speed to attack them from behind.
+Lunge is a Finesse-based ability that sends the character past enemies to attack from behind. The initial cast puts the player directly behind the target; the player then must press the attack button to actually strike.
+
+Level	Damage	Mana cost
+1		40		40
+2		55		45
+3		70		50
+4		85		55
+5		100		60
+
+ROW 4
+Precise Weaponry III
+Requires 35 points in Finesse abilities (Tier 4)
+Requires Precise Weaponry II
+[Weapon Attacks] 3 Levels
+1	Unlocks special attacks from Dodge for Daggers and Faeblades.
+		Cross Slash - Attack with the Daggers while dodging to perform a launching attack.
+		Cyclone - Attack with the Faeblades while dodging to perform a spinning leap attack.
+2	Both Cross Slash and Cyclone apply an additional damage over time effect.
+3	Both Cross Slash and Cyclone generate extra Fate.
+
+Smoke BombEdit
+[Active] 4 Levels
+Requires 35 points in Finesse abilities (Tier 4)
+Throw down a smokescreen to stun enemies and blind them to your presence for a short duration.
+Smoke Bomb is a Finesse-based ability where the character throws a smoke bomb that stuns and blinds enemies for a short period of time. When activating this skill, the character becomes invisible for 6 seconds.[n 1] The duration of the invisibility does not increase when leveling up. However, the stun duration of enemies affected does increase with each of the four levels of this ability.
+The invisibility acts as a faux stealth, as such you can quickly sneak behind and attack as if from stealth. This can mean that the smoke bomb is a free assassination on one target.
+Note that all levels have an explosion radius of 6 meters and a stealth duration of 6 seconds.
+
+Level	Damage	Stun Duration	Mana Cost
+1		7		2				40
+2		10		3				45
+3		14		4				50
+4		19		5				55
+
+Barbed ArrowsEdit
+[Passive] 5 Levels
+Requires 35 points in Finesse abilities (Tier 4)
+Requires Longbow Mastery
+Requires Drawpower
+Requires Arrow Storm
+By Affixing small barbs to your arrows, each Longbow shot has a chance to deal heavy Bleeding Damage to your foes. Also Increases the size of your quiver.
+
+Barbed Arrows is a Finesse-based ability that allows for each longbow shot to inflict heavy Bleeding Damage. It also increases the size of the quiver.
+
+Levels
+There are five levels of this ability. Two more levels may be unlocked via ability bonuses. Unlocking this ability increases the size of your quiver by one.
+
+Level	Chance to cause Bleeding Damage		Bleeding Damage inflicted over 5 seconds
+1		10%									80
+2		12%									90
+3		14%									100
+4		17%									110
+5		20%									120
+
+Enduring AgonyEdit
+[Passive] 5 Levels
+Requires 35 points in Finesse abilities (Tier 4)
+Requires Shadow Flare
+Secret techniques enable you to extend the duration of all you Poison and Bleeding attacks. Also increases Shadow Flare damage.
+Enduring Agony is a Finesse-based ability extends the damage done by Poison and Bleeding attacks. It also increases the damage done by Shadow Flare.
+Note that Enduring Agony does not increase the damage per second of bleeding and poison abilities, but it does increase their duration, which effectively increases their damage by extending the duration of the effect.
+
+Level	Bleeding and Poison Damage Increase		Shadow Flare bonus damage
+1		+20%									+10%
+2		+30%									+20%
+3		+40%									+30%
+4		+55%									+40%
+5		+70%									+50%
+
+
+Blade HoningEdit
+[Active - Sustained] 5 Levels
+Requires 35 points in Finesse abilities (Tier 4)
+The razor sharp blades of your weapons cut into your foes with ease. While this Ability is active, Critical Hit Damage for Longswords, Daggers, Faeblades, and Greatswords is substantially increased.
+Blade Honing is a Finesse-based ability that, when active, increases critical hit damage for Longswords, Daggers, Faeblades, Greatswords, and Chakrams.[1]
+Note that at all levels this ability has a sustained mana cost equal to 15% of your maximum Mana.
+
+Level	Increased Critical Hit damage
+1		+10%
+2		+15%
+3		+20%
+4		+25%
+5		+30%
+
+ROW 5
+Precise Weaponry IVEdit
+Requires 50 points in Finesse abilities (Tier 5)
+Requires Precise Weaponry III
+[Weapon Attacks] 3 Levels
+1	Unlocks special attacks from Parry for Daggers and Faeblades.
+		Punishment - After a timed Parry, attack with the Daggers to perform a series of rapid strikes.
+		Savage Wing - After a timed Parry, attack with the Faeblades to perform a spinning jump attack.
+2	Both Punishment and Savage Wing apply an additional damage over time effect.
+3	Both Punishment and Savage Wing generate extra Fate.
+
+Poison BombEdit
+[Upgrade] 4 Levels
+Requires 50 points in Finesse abilities (Tier 5)
+Requires Smoke Bomb
+Further tinkering has enabled you to add a deadly Poison cloud to the effects of your Smoke Bomb.
+Poison Bomb is a Finesse-based ability that adds Poison Damage to the effects of a Smoke Bomb attack.
+
+Level	Poison Damage over 5 seconds
+1		30
+2		60
+3		90
+4		120
+
+ScattershotEdit
+[Weapon Attacks] 6 Levels
+Requires 50 points in Finesse abilities (Tier 5)
+Requires Longbow Mastery
+Requires Drawpower
+Requires Arrow Storm
+Requires Barbed Arrows
+Your skill with Longbows enables you to fire multiple arrows simultaneously. Also Increases the size of your quiver.
+Scattershot is a Finesse-based ability that unlocks the Scattershot move allowing the character to fire multiple arrows at once. The ability also increased the size of the quiver.
+Unlocking this ability increases the size of your quiver by one.
+
+Level	Charged Arrows Fired	Uncharged Arrows Fired
+1		1						2
+2		3						0
+3		3						2
+4		5						0
+5		5						2
+6		7						0
+
+Mysterious ToxinsEdit
+[Passive] 5 Levels
+Requires 50 points in Finesse abilities (Tier 5)
+Requires Envenomed Edge
+Requires Inoculation
+The skilled mixing of obscure toxins allows your Poison attacks to propagate to other enemies.
+A Finesse ability. Despite the its description, Mysterious Toxins does not cause Poison Damage to "propagate" as Shocking Damage does. Instead, poisoned enemies have a chance to create a poison cloud when they die, which will deal poison damage to other enemies.
+
+Level	Chance to create poison cloud	poison cloud damage
+1		10%								150
+2		20%								175
+3		30%								200
+4		40%								225
+5		50%								250
+
+ROW 6
+GambitEdit
+[Active] 6 Levels
+Requires 70 points in Finesse abilities (Tier 6)
+With an acrobatic leap, you distribute explosives across the battlefield that damage and launch enemies.
+Gambit is a Finesse-based ability where the character jumps into the air and throws explosives around the battlefield, which harm enemies and cause them to launch into the air.
+
+Each level drops 7 traps for 80 mana, or the button may be held down to drop 18 traps for 120 mana. The traps drop in a 5 meter radius.
+
+Level	Damage per Trap
+1		80
+2		90
+3		100
+4		110
+5		120
+6		130
+
+Paralytic PoisonsEdit
+[Passive] 4 Levels
+Requires 70 points in Finesse abilities (Tier 6)
+Requires Envenomed Edge
+Requires Inoculation
+Requires Mysterious Toxins
+You have discovered long hidden secrets of poisoncraft, enabling your poison attacks to temporarily stun your opponents.
+Paralytic Poisons is a Finesse ability that enables poison attacks to temporarily stun opponents.
+Note that at all levels the stun duration is 5 seconds.
+
+Level	Chance to stun
+1		2%
+2		4%
+3		6%
+4		8%
+
+ ExecutionEdit
+[Passive] 5 Levels
+Requires 70 points in Finesse abilities (Tier 6)
+With anatomical precision, you deal out higher damage to bleeding foes.
+Execution is a Finesse-based ability that allows the character to deal higher damage to bleeding enemies.
+
+Level	Chance for bonus damage		Bonus damage
+1		10%							100
+2		11%							120
+3		12%							140
+4		13%							160
+5		14%							180
+
+
+**** Sorcery ****
+ROW 1
+Arcane Weaponry IEdit
+[Weapon Attacks] 3 Levels
+Unlocks Charge special attacks for the Staff and Chakrams.
+Staff: Charged Entropy - Charges the Staff before slamming it into the ground and releasing a radial AoE attack, can be quick charged (1 flash) for short range or held (2 flashes) for longer range and more damage.
+Chakrams: Maelstrom - Charges the Chakrams then releases them to orbit the character in an increasing radius AoE attack, can be quick charged (1 flash) for short range or held (2 flashes) for longer range and more damage.
+
+1	Unlocks Charge[n 1] special attacks for the Staff and Chakrams[n 2] and decreases the cost of Sceptre attacks from 6% of your Mana to 5%.
+		Charged Entropy - Charges the Staff before slamming it into the ground and releasing a radial area of effect attack, can be quick charged for a point blank, held for (1 flash) for short range or held (2 flashes) for longer range and more damage.
+		Maelstrom - Charges the Chakrams then releases them to orbit the character in an increasing radius area of effect attack, can be quick charged for a very short, single chakram throw, held for (1 flash) for short range or held (2 flashes) for longer range and more damage.
+2	Charged Entropy and Maelstrom apply an additional damage over time effect.
+3	Charged Entropy and Maelstrom generate extra Fate
+
+Sceptre MasteryEdit
+[Passive] 6 Levels
+Long hours of study and practice enable you to wield Sceptres very effectively.
+Adds Physical Damage to Sceptres and an overall Sceptre damage boost.
+Sceptre Mastery is a Sorcery-based ability that allows for more damage to be dealt with sceptres.
+
+Level	Physical Damage with Sceptres	Bonus Damage with Sceptres
+1		+2								+5%
+2		+3								+10%
+3		+4								+15%
+4		+6								+20%
+5		+8								+25%
+6		+10								+30%
+
+Staff MasteryEdit
+[Passive] 6 Levels
+You've learned to channel incredible amounts of energy through your Staff, increasing its damage output considerably.
+Adds Physical Damage to Staves and an overall Staff damage boost.
+Staff Mastery is a Sorcery-based attack that allows for more damage to be dealt when using a staff.
+
+
+Level	Physical Damage with Staffs		Bonus Damage with Staffs
+1		+6								+5%
+2		+7								+10%
+3		+8								+15%
+4		+10								+20%
+5		+12								+25%
+6		+14								+30%
+
+Storm BoltEdit
+[Active] 6 Levels
+Launch a burst of electrical energy which deals Lightning and Shocking Damage. At higher levels, it can Stun enemies. At level 4, Storm Bolt gains a Shocking Damage AoE on impact.
+Storm Bolt is a Sorcery-based ability that sends an electrical bolt at an enemy, causing Lightning and Shocking damage. At higher levels, it can stun enemies. The Chain Lightning and Tempest upgrades this ability.
+
+Level	Lightning Damage	Chance to Stun	Stun Duration	Area Shocking Damage	Mana Cost
+1		40					0%				0 sec			0						20
+2		50					0%				0 sec			0						23
+3		60					20%				3 sec			0						26
+4		70					25%				4 sec			12						29
+5		80					30%				4 sec			15						32
+6		90					35%				4 sec			18						35
+7		100					40%				4 sec			21						35
+8		110					40%				5 sec			24						35
+
+ROW 2
+Arcane Weaponry IIEdit
+Requires 5 points in Sorcery abilities (Tier 2)
+Requires Arcane Weaponry I
+[Weapon Attacks] 3 Levels
+1	Unlocks special attacks from Block for the Staff and Sceptre[n 2] and decreases the cost of Sceptre attacks from 5% of your Mana to 4%.
+		Mage's Vortex - Attack with your staff while holding Block to summon a small tornado at the feet of enemies in front of you while you take a spinning step backwards.
+		Warding Blast - Press Attack while holding Block to perform a Sceptre blast that launches an enemy followed by a short ranged "shielding" attack while stepping forward slightly. Needs to be channeled to launch enemies up and away, otherwise it simply damages.
+2	Mage's Vortex and Warding Blast apply an additional damage over time effect.
+3	Mage's Vortex and Warding Blast generate extra Fate.
+
+Chakram MasteryEdit
+[Passive] 6 Levels
+Requires 5 points in Sorcery abilities (Tier 2)
+Your unique mix of arcane and martial talent enables you to deal incredible damage with Chakrams.
+Adds Physical Damage to Chakrams and an overall Chakram damage boost.
+Chakram Mastery is a Sorcery-based ability that allows for more damage to be dealt while using chakrams.
+
+Level	Physical Damage with Chakrams	Bonus Damage with Chakrams
+1		+2								+5%
+2		+3								+10%
+3		+4								+15%
+4		+6								+20%
+5		+8								+25%
+6		+10								+30%
+
+Sphere of ProtectionEdit
+[Active - Sustained] 6 Levels
+Requires 5 points in Sorcery abilities (Tier 2)
+While active, Sphere of Protection creates a magical barrier that blocks a percentage of damage from each incoming attack. Sustained Cost: 30% Mana
+Sphere of Protection is a Sorcery-based ability that creates a magical barrier that blocks a percent of damage from all incoming attacks.
+Note that all levels have a sustained mana cost equal to 30% of your maximum Mana.
+
+Level	Damage Resistance
+1		+5%
+2		+6%
+3		+7%
+4		+8%
+5		+10%
+6		+12%
+
+Mark of FlameEdit
+[Active] 5 Levels
+Requires 5 points in Sorcery abilities (Tier 2)
+Tap the button to tag your targets with a magical Mark. Press and hold the button to detonate all Marked enemies with a fiery explosion.
+Mark of Flame is a Sorcery-based ability that allows the character to tag nearby enemies with a magical mark. When finished marking enemies, the mark causes a fiery explosion. The explosion will hit any enemies nearby. The ability Smolder upgrades Mark of Flame by increasing its damage.
+
+Level	Maximum Targets Marked	Fire Damage on Execution	Burning Damage on Execution		Execute Mana Cost
+1		3						100							10								30
+2		3						130							15								33
+3		4						160							20								36
+4		4						190							25								39
+5		5						220							30								42
+
+Conservative CastingEdit
+[Passive] 5 Levels
+Requires 5 points in Sorcery abilities (Tier 2)
+Having unlocked countless arcane secrets, you are able to power your Abilities with far less Mana.
+Conservative Casting is a Sorcery-based ability that allows for the character to spend less mana when using magic attacks.
+
+Level	Mana Cost Reduction
+1		10%
+2		13%
+3		16%
+4		19%
+5		22%
+
+ROW 3
+Summon Faer GortaEdit
+[Active] 6 Levels
+Requires 20 points in Sorcery abilities (Tier 2)
+Use magic to rapidly construct a Faer Gorta who will fight by your side. Summon last 120 seconds.
+Summon Faer Gorta is a Sorcery-based ability where the character uses magic to construct a Faer Gorta to help fight for 120 seconds.
+
+Level	Health and Damage Bonus		Mana Cost
+1		+0%							65
+2		+10%						60
+3		+25%						65
+4		+50%						70
+5		+75%						75
+6		+100%						80
+
+Healing SurgeEdit
+[Active] 5 Levels
+Requires 20 points in Sorcery abilities (Tier 2)
+Your magic knits together flesh and bone, healing your wounds. Holding the button longer restores more health.
+Healing Surge is a Sorcery-based ability that allows the character to use magic to regain health. The longer the button is held, the more health is regained.
+Note that Healing Surge always costs 30% of your maximum Mana to cast, and up to 20% of your maximum Mana to sustain the charge. All levels also restore 20% of your maximum Health immediately upon cast and 10% on finishing the charge.
+
+Level	Health restored while charging
+1		10%
+2		20%
+3		30%
+4		40%
+5		50%
+
+Chain LightningEdit
+[Passive] 5 Levels
+Requires 20 points in Sorcery abilities (Tier 2)
+Requires Storm Bolt
+Increases the Storm Bolt damage, and causes Shocking Damage to bounce between your enemies more frequently.
+Chain Lightning is a Sorcery-based ability that increases damage of Storm Bolt, and increases the amount of Shocking damage to bounce between enemies more frequently.
+
+Level	increased chance to propagate	Increased Storm Bolt damage
+1		10%								+10%
+2		20%								+20%
+3		30%								+30%
+4		40%								+40%
+5		50%								+50%
+
+Ice BarrageEdit
+[Active] 5 Levels
+Requires 20 points in Sorcery abilities (Tier 2)
+Sends a scattered blast of ice shards into the air to crash down upon your foes, dealing Ice and Freezing Damage.
+Ice Barrage is a Sorcery-based ability that sends shards of ice into the air and crashing down onto enemies. Ice Barrage causes both Ice and Freezing Damage. Frostshackle and Winter's Embrace upgrade this ability.
+
+Level	Projectiles		Ice Damage per projectile	Freezing Damage per projectile	Mana Cost
+1		5				15							3								25
+2		5				18							4								30
+3		7				21							5								35
+4		7				24							5								40
+5		9				27							5								45
+
+ROW 4
+Arcane Weaponry III
+Requires 35 points in Sorcery abilities (Tier 4)
+Requires Arcane Weaponry II
+[Weapon Attacks] 3 Levels
+1	Unlocks Delayed special attacks for the Staff and Chakrams[n 2] and decreases the cost of Sceptre attacks from 4% of your Mana to 3%.
+		Arcane Fury - Press Attack -> Pause -> Attack to perform a 2-part attack with a staff that launches enemies into the air and away from you.
+		Elemental Escape - Press Attack -> Pause -> Attack to attack an enemy with both Chakrams then launch them into the ground at the enemy's feet, blasting them backwards while you jump away.
+2	Arcane Fury and Elemental Escape apply an additional damage over time effect.
+3	Arcane Fury and Elemental Escape generate extra Fate.
+
+TransferenceEdit
+[Upgrade] 5 Levels
+Requires 35 points in Sorcery abilities (Tier 4)
+Requires Summon Faer Gorta
+Causes the attacks of a summoned Faer Gorta to siphon health from enemies and return it to you.
+ransference is a Sorcery-based ability that causes the attacks of a summoned Faer Gorta to siphon health from enemies and return it to the Fateless One.
+
+Level	Chance to Siphon Health
+1		25%
+2		35%
+3		45%
+4		55%
+5		70%
+
+Sphere of ReprisalEdit
+[Upgrade] 5 Levels
+Requires 35 points in Sorcery abilities (Tier 4)
+Requires Sphere of Protection
+While Sphere of Protection is active, ethereal orbs are created around you which deal damage to enemies they hit.
+Sphere of Reprisal is a Sorcery-based ability that, when Sphere of Protection is cast, also creates small orbs that deal damage when they hit enemies. These small orbs will respawn a short time after hitting enemies.
+
+Level	Physical Damage per projectile	Projectiles
+1		50								2
+2		55								2
+3		60								2
+4		65								4
+5		70								4
+
+SmolderEdit
+[Passive] 5 Levels
+Requires 35 points in Sorcery abilities (Tier 4)
+Requires Mark of Flame
+Your mastery over the power of fire allows you to increase the effectiveness of all Burning effects, as well as the damage done by Mark of Flame.
+Smolder is a Sorcery-based ability that increases the damage caused by Burning. It also increases damage from Mark of Flame.
+
+Level	Burning Damage increase		Mark of Flame bonus damage
+1		+20%						+10%
+2		+40%						+20%
+3		+60%						+30%
+4		+80%						+40%
+5		+100%						+50%
+
+FrostshackleEdit
+[Passive] 5 Levels
+Requires 35 points in Sorcery abilities (Tier 4)
+Requires Ice Barrage
+Your knowledge of eldritch frost allows you to extend the duration of all Freezing effects, slowing enemies down for a longer time. Also increases the damage caused by Ice Barrage.
+Frostshackle is a Sorcery-based ability that allows for all Ice based attacks to slow enemies down more so than before. It will also increase the damage output for Ice Barrage.
+
+Level	Increased Freezing duration		Increased Ice Barrage damage
+1		25%								+10%
+2		50%								+20%
+3		75%								+30%
+4		100%							+40%
+5		150%							+50%
+
+ROW 5
+Arcane Weaponry IVEdit
+Requires 50 points in Sorcery abilities (Tier 5)
+Requires Arcane Weaponry III
+[Weapon Attacks] 3 Levels
+1	Unlocks Dodge attacks for the Chakrams[n 2] and decreases the cost of Sceptre attacks from 3% of your Mana to 2%.
+		Orbit Blades - Press Attack while dodging/rolling to launch an enemy into the air and send your Chakrams to spiralling into them for aerial punishment.
+2	Orbital Blades apply an additional damage over time effect.
+3	Orbital Blades generate extra Fate
+
+ Masterful ConstructionEdit
+[Upgrade] 5 Levels
+Requires 50 points in Sorcery abilities (Tier 5)
+Requires Summon Faer Gorta
+Requires Transference
+Your summoned Faer Gorta swings for more hits in its attack chain, and gains a chance to critical.
+Masterful Construction is a Sorcery-based ability that grants more attack power to summoned Faer Gortas. The Faer Gorta gets more attacks in its attack chain and also has a chance of landing critical hits.
+
+Level	Chance to Critical Hit	Chain attack hits
+1		+7%						3
+2		+10%					3
+3		+13%					5
+4		+16%					5
+5		+19%					7
+
+ Elemental RageEdit
+[Active] 5 Levels
+Requires 50 points in Sorcery abilities (Tier 5)
+Combine the mystic elements of Fire, Lightning, and Ice into a devastating chain of attacks.
+SummaryEdit
+Elemental Rage is a Sorcery-based attack that combines the elements of fire, lightning, and ice into a chain of attacks. Lightning pulses with the first cast, dealing Lightning Damage and drawing enemies in. Fire torches enemies in the area on the second cast, dealing Fire Damage and moving you away from enemies. The third cast finishes with an icy explosion, dealing Ice Damage in the area and slowing enemies.
+
+Level	Lightning Damage	Lightning cast mana cost	Fire Damage		Fire cast mana cost		Ice Damage	Ice cast mana cost
+1		90					55							130				55						100			60
+2		105					60							150				60						110			65
+3		120					65							170				65						125			70
+4		135					70							190				70						145			75
+5		150					75							210				75						170			80
+
+TempestEdit
+[Upgrade] 5 Levels
+Requires 50 points in Sorcery abilities (Tier 5)
+Requires Storm Bolt
+Requires Chain Lightning
+Hold the button for Storm Bolt to summon forth lightning from the heavens, smiting all nearby foes.
+Tempest is a Sorcery-based ability that, when the button for Storm Bolt is held, sends lightning bolts down to the ground, stunning all nearby enemies.
+
+Level	Lightning Damage	Shocking Damage		Mana Cost
+1		360					30					135
+2		400					35					145
+3		440					40					155
+4		480					45					165
+5		520					50					175
+
+ROW 6
+Sphere of RetributionEdit
+[Upgrade] 5 Levels
+Requires 70 points in Sorcery abilities (Tier 5)
+Requires Sphere of Protection
+Requires Sphere of Reprisal
+Sphere of Protection gains the power to fire off deadly ethereal splinters when enemies draw near.
+Sphere of Retribution is a Sorcery-based ability that, when Sphere of Protection is cast, will shoot splinters at nearby enemies.
+At level 2 enemies who draw close will be staggered, at level 4 enemies may be knocked down by the splinters, and there is a nearly guaranteed chance to knock down enemies at level 5 and higher. Two more levels my be unlocked via ability bonuses.
+
+Level	Physical Damage per projectile
+1		110
+2		120
+3		130
+4		140
+5		150
+
+ MeteorEdit
+[Active] 5 Levels
+Requires 70 points in Sorcery abilities (Tier 5)
+Requires Mark of Flame
+Requires Smolder
+Calls forth a meteor from the skies, dealing massive damage to the area before you.
+Meteor is a Sorcery-based ability that calls a meteor from space to shoot down on the battlefield.
+
+Level	Fire Damage		Burning Damage	Mana Cost
+1		500				75				250
+2		550				80				260
+3		600				85				270
+4		650				90				280
+5		700				95				290
+
+Winter's EmbraceEdit
+[Upgrade] 5 Levels
+Requires 70 points in Sorcery abilities (Tier 5)
+Requires Ice Barrage
+Requires Frostshackle
+Hold the button for Ice Barrage to launch a persistent cloud of ice shards which lasts for a duration. Enemies in the blizzard suffer periodic Ice, Piercing, and Freezing Damage.
+Winter's Embrace is a Sorcery-based attack that, when the button for Ice Barrage is held down, unleashes a cloud of ice shards for a duration. The shards will cause Ice, Piercing, and Freezing damage according to the ability's description, but no Freezing damage is listed for it.
+
+Damage								Duration	Mana Cost
+10 Ice Damage, 5 Piercing Damage	15 seconds	180
+15 Ice Damage,10 Piercing Damage	15 seconds	190
+20 Ice Damage,15 Piercing Damage	15 seconds	200
+25 Ice Damage,20 Piercing Damage	15 seconds	210
+30 Ice Damage,25 Piercing Damage	15 seconds	220
+35 Ice Damage,30 Piercing Damage	15 seconds	220
+40 Ice Damage,35 Piercing Damage	15 seconds	220
+
+http://amalur.wikia.com/wiki/Sorcery
+
+
+
+
