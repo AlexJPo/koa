@@ -8,14 +8,19 @@
 <?import javafx.scene.layout.*?>
 
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" 
+xmlns="http://javafx.com/javafx/8" 
+xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="koa.controller.AlchemyController"
+id="borderPane"
+>
    <center>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" id="border-pane-center">
          <children>
-            <TableView AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <TableView fx:id="tableView" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
               <columns>
-                <TableColumn editable="false" prefWidth="75.0" text="C1" />
-                <TableColumn editable="false" prefWidth="75.0" text="C2" />
+                <TableColumn fx:id="potionName" editable="false" prefWidth="75.0" text="Name" />
+                <TableColumn fx:id="potionEffect" editable="false" prefWidth="75.0" text="Effect" />
               </columns>
                <columnResizePolicy>
                   <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
@@ -25,71 +30,22 @@
       </AnchorPane>
    </center>
    <bottom>
-      <AnchorPane prefWidth="200.0" BorderPane.alignment="CENTER">
+      <AnchorPane prefWidth="200.0" prefHeight="60.0" minHeight="50.0" BorderPane.alignment="CENTER">
          <children>
-            <HBox alignment="CENTER_LEFT" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <HBox alignment="CENTER_LEFT" fx:id="reagentsList" id="reagentsList" prefWidth="200.0" prefHeight="60.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                <children>
                   <AnchorPane>
                      <children>
-                        <Label text="Label" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                     </children>
-                  </AnchorPane>
-                  <AnchorPane style="-fx-background-color: gray;" HBox.hgrow="ALWAYS">
-                     <children>
-                        <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-                           <viewport>
-                              <Rectangle2D height="55.0" width="55.0" />
-                           </viewport>
-                        </ImageView>
-                        <Label text="x3" textFill="#f8f4f4" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="30.0">
-                           <font>
-                              <Font name="System Bold" size="20.0" />
-                           </font>
-                        </Label>
-                        <Label text="Label" textFill="#fffefe" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                           <font>
-                              <Font name="Arial Bold" size="20.0" />
-                           </font>
-                        </Label>
-                     </children>
-                  </AnchorPane>
-                  <AnchorPane HBox.hgrow="ALWAYS">
-                     <children>
-                        <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-                           <viewport>
-                              <Rectangle2D height="55.0" width="55.0" />
-                           </viewport>
-                        </ImageView>
-                        <Label text="x3" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="45.0" />
-                        <Label text="Label" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                     </children>
-                  </AnchorPane>
-                  <AnchorPane HBox.hgrow="ALWAYS">
-                     <children>
-                        <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-                           <viewport>
-                              <Rectangle2D height="55.0" width="55.0" />
-                           </viewport>
-                        </ImageView>
-                        <Label text="x3" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="45.0" />
-                        <Label text="Label" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                     </children>
-                  </AnchorPane>
-                  <AnchorPane HBox.hgrow="ALWAYS">
-                     <children>
-                        <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-                           <viewport>
-                              <Rectangle2D height="55.0" width="55.0" />
-                           </viewport>
-                        </ImageView>
-                        <Label text="x3" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="45.0" />
-                        <Label text="Label" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <Label text="Ingredients:" id="ingridients" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
                      </children>
                   </AnchorPane>
                </children>
                <padding>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
+               <HBox.margin>
+                  <Insets left="5.0" right="15.0" />
+               </HBox.margin>
             </HBox>
          </children>
       </AnchorPane>
@@ -97,21 +53,33 @@
    <top>
       <AnchorPane BorderPane.alignment="CENTER">
          <children>
-            <HBox AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <HBox id="topMenu" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                <children>
-                  <AnchorPane prefWidth="200.0">
+                  <AnchorPane HBox.hgrow="ALWAYS">
                      <children>
-                        <Label alignment="CENTER" text="Label" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                        <Label alignment="CENTER" text="Minor potions" onMouseClicked="#changePotionType" fx:id="minorPotion" id="potion-type" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" styleClass="potion-type-active" >
+							<font>
+				                <Font name="Arial Bold" size="20.0"/>
+				            </font>
+				        </Label>
                      </children>
                   </AnchorPane>
-                  <AnchorPane prefWidth="200.0">
+                  <AnchorPane HBox.hgrow="ALWAYS">
                      <children>
-                        <Label alignment="CENTER" text="Label" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                        <Label alignment="CENTER" text="Greater potions" onMouseClicked="#changePotionType" fx:id="greatPotion" id="potion-type" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                        	<font>
+				                <Font name="Arial Bold" size="20.0"/>
+				            </font>
+				        </Label>
                      </children>
                   </AnchorPane>
-                  <AnchorPane prefWidth="200.0">
+                  <AnchorPane HBox.hgrow="ALWAYS">
                      <children>
-                        <Label alignment="CENTER" text="Label" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                        <Label alignment="CENTER" text="Master potions" onMouseClicked="#changePotionType" fx:id="masterPotion" id="potion-type" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                        	<font>
+				                <Font name="Arial Bold" size="20.0"/>
+				            </font>
+				        </Label>
                      </children>
                   </AnchorPane>
                </children>

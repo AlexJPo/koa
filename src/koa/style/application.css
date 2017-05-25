@@ -1,19 +1,19 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
 
-/* Skill grid  */ 
+/* Skill grid  *//* 
 #skillgrid-main {
 	-fx-border-width: 5px;
 	-fx-border-color: #4f3e2e;
 	-fx-grid-lines-visible: true;
 	-fx-background-color: black;
-}
+}*/
 
-/* Skill grid child  */
-#skillgrid-child .label { -fx-font-weight: bold; }
-#skill-title { -fx-text-fill: #f0ecf0; -fx-font-size: 16px; }
-#skill-level, #skill-name { -fx-text-fill: #f0ecf0; -fx-font-size: 20px; }
-
-/*Skill grid description*/
+/* Skill grid child  *//*
+#skillgrid-child .label { -fx-text-fill: #f0ecf0; -fx-font-weight: bold; }
+#skill-title { -fx-font-size: 16px; }
+#skill-level, #skill-name { -fx-font-size: 20px; }
+*/
+/*Skill grid description*//*
 #skillgrid-desc { -fx-background-color: black; }
 #skillgrid-desc .label { -fx-text-fill: #f0ecf0; -fx-font-weight: bold; }
 #skillname { -fx-font-size: 24px; }
@@ -24,4 +24,37 @@
 
 #skill { -fx-background-color: #333; }
 .label { -fx-font-style: italic; }
-#bas { -fx-text-fill: red!important; }
+*/
+#borderPane { -fx-background-color: black; }
+#border-pane-center { -fx-background-color: #a27463; }
+#reagentsList, #topMenu { -fx-background-color: black; }
+#potion-type { -fx-cursor: hand; -fx-text-fill: #dbcdcb; }
+.potion-type-active { -fx-text-fill: #f0ecf0!important; }
+#potion-type:hover { -fx-text-fill: #f0ecf0; }
+.table-view {
+	-fx-base: black;
+	-fx-control-inner-background: black;
+	-fx-background-color: black;
+    -fx-table-cell-border-color: black;
+    -fx-table-header-border-color: black;
+    -fx-padding: 5;
+}
+.table-view .column-header-background { -fx-background-color: black; }
+.table-cell { -fx-text-fill: #f0ecf0; }
+.table-view .filler { -fx-size: 20px; -fx-text-fill: #f0ecf0; }
+.table-view .column-header { -fx-font-size: 18px; -fx-font-weight: bold; }
+.table-view .table-row-cell {
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+	-fx-table-cell-border-color: transparent;
+	-fx-text-fill: #f0ecf0;
+}
+.table-view .table-row-cell:selected { -fx-border-color: #f0ecf0; -fx-background-color: transparent; }
+#ingridients {
+	-fx-font-family: "Arial Bold";
+	-fx-font-size: 20px;
+	-fx-text-fill: #f0ecf0;
+	-fx-font-weight: bold;
+}
+.scroll-bar { -fx-border-color: #a27463; }
+.thumb { -fx-background-color: #a27463; }
