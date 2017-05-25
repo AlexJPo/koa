@@ -1,0 +1,1268 @@
+﻿{
+	"minor" : [
+		{
+			"name" : "Minor Alchemist's Art",
+			"reagents" : [
+				{ "name" : "Embereyes", "count" : 1, "image" : "img/skills/alchemy/embereyes.png" },
+				{ "name" : "Sky Blossom", "count" : 1, "image" : "img/skills/alchemy/sky_blossom.png" }
+			],
+			"effect" : "Temporarily increases your alchemy skill by 1",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Assassin's Evasion",
+			"reagents" : [
+				{ "name" : "Cripplespore Caps", "count" : 1, "image" : "img/skills/alchemy/cripplespore_caps.png" },
+				{ "name" : "Sky Blossom", "count" : 1, "image" : "img/skills/alchemy/sky_blossom.png" }
+			],
+			"effect" : "Temporarily increases your stealth skill by 1",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Blacksmith's Craft",
+			"reagents" : [
+				{ "name" : "Tindertwig", "count" : 1, "image" : "img/skills/alchemy/tinderwig.png" },
+				{ "name" : "Sky Blossom", "count" : 1, "image" : "img/skills/alchemy/sky_blossom.png" }
+			],
+			"effect" : "Temporarily increases your blacksmith skill by 1",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Blazing Salve",
+			"reagents" : [
+				{ "name" : "Tindertwig", "count" : 2, "image" : "img/skills/alchemy/tinderwig.png" },
+				{ "name" : "Scarwood Bark", "count" : 1, "image" : "img/skills/alchemy/scarwood_bark.png" }
+			],
+			"effect" : "Increases the damage you do with fire-based attacks: +10 Fire Damage, +25% Fire Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Bleeding Resistance",
+			"reagents" : [
+				{ "name" : "Scarlet Flowstone", "count" : 2, "image" : "img/skills/alchemy/scarlet_flowstone.png" },
+				{ "name" : "Ysa's Breath", "count" : 1, "image" : "img/skills/alchemy/ysas_breath.png" }
+			],
+			"effect" : "Decreases bleeding damage received by 25%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Burning Sentinel",
+			"reagents" : [
+				{ "name" : "Tindertwig", "count" : 2, "image" : "img/skills/alchemy/tinderwig.png" },
+				{ "name" : "Edelweiss", "count" : 1, "image" : "img/skills/alchemy/edelweiss.png" }
+			],
+			"effect" : "Temporarily gives a 50% chance to Burn enemies when attacked",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Current Stopper",
+			"reagents" : [
+				{ "name" : "Eel Petal", "count" : 2, "image" : "img/skills/alchemy/eel_petal.png" },
+				{ "name" : "Ysa's Breath", "count" : 1, "image" : "img/skills/alchemy/ysas_breath.png" }
+			],
+			"effect" : "Decreases lightning damage received by 25%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Dispelling Boost",
+			"reagents" : [
+				{ "name" : "Star Thistle", "count" : 2, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Sky Blossom", "count" : 1, "image" : "img/skills/alchemy/sky_blossom.png" }
+			],
+			"effect" : "Temporarily increases your dispelling skill by 1",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Experience Booster",
+			"reagents" : [
+				{ "name" : "Prismere Dust", "count" : 2, "image" : "img/skills/alchemy/prismere_dust.png" },
+				{ "name" : "Leechwood Bark", "count" : 1, "image" : "img/skills/alchemy/leechwood_bark.png" }
+			],
+			"effect" : "Increases the XP you receive per kill by 10%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Flameguard",
+			"reagents" : [
+				{ "name" : "Tindertwig", "count" : 1, "image" : "img/skills/alchemy/tinderwig.png" },
+				{ "name" : "Ysa's Breath", "count" : 1, "image" : "img/skills/alchemy/ysas_breath.png" }
+			],
+			"effect" : "Decreases fire damage received by 25%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Flesh Eater",
+			"reagents" : [
+				{ "name" : "Black Cohosh", "count" : 2, "image" : "img/skills/alchemy/black_cohosh.png" },
+				{ "name" : "Leechwood Bark", "count" : 2, "image" : "img/skills/alchemy/leechwood_bark.png" }
+			],
+			"effect" : "Increase the damage you do with health absorption attacks: +10 Health Stolen Per Hit",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Force Potion",
+			"reagents" : [
+				{ "name" : "Sativa Fibers", "count" : 2, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Scarwood Bark", "count" : 1, "image" : "img/skills/alchemy/scarwood_bark.png" }
+			],
+			"effect" : "Increases physical damage: +25% Physical Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Freezing Sentinel",
+			"reagents" : [
+				{ "name" : "White Flake", "count" : 2, "image" : "img/skills/alchemy/white_flake.png" },
+				{ "name" : "Edelweiss", "count" : 1, "image" : "img/skills/alchemy/edelweiss.png" }
+			],
+			"effect" : "Temporarily gives a 50% chance to Freeze enemies when attacked",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Frostbite",
+			"reagents" : [
+				{ "name" : "White Flake", "count" : 2, "image" : "img/skills/alchemy/white_flake.png" },
+				{ "name" : "Ysa's Breath", "count" : 1, "image" : "img/skills/alchemy/ysas_breath.png" }
+			],
+			"effect" : "Increases the damage you do with ice-based attacks: +10 Ice Damage, +25% Ice Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Frostguard",
+			"reagents" : [
+				{ "name" : "White Flake", "count" : 1, "image" : "img/skills/alchemy/white_flake.png" },
+				{ "name" : "Scarwood Bark", "count" : 1, "image" : "img/skills/alchemy/scarwood_bark.png" }
+			],
+			"effect" : "Decreases ice damage received by 25%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Hardened Shell",
+			"reagents" : [
+				{ "name" : "Sativa Fibers", "count" : 2, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Ysa's Breath", "count" : 2, "image" : "img/skills/alchemy/ysas_breath.png" }
+			],
+			"effect" : "Increase your physical-based resistance by 25%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Healing Potion",
+			"reagents" : [
+				{ "name" : "Black Cohosh", "count" : 2, "image" : "img/skills/alchemy/black_cohosh.png" },
+				{ "name" : "Embereyes", "count" : 1, "image" : "img/skills/alchemy/embereyes.png" }
+			],
+			"effect" : "Restores a small amount of your health",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Health Regen Potion",
+			"reagents" : [
+				{ "name" : "Black Cohosh", "count" : 2, "image" : "img/skills/alchemy/black_cohosh.png" },
+				{ "name" : "Scarlet Flowstone", "count" : 1, "image" : "img/skills/alchemy/scarlet_flowstone.png" }
+			],
+			"effect" : "Increases your health regeneration rate by a small amount: 5 health regen per second for 60 seconds",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Jeweled Shilelagh",
+			"reagents" : [
+				{ "name" : "White Flake", "count" : 1, "image" : "img/skills/alchemy/white_flake.png" },
+				{ "name" : "Sky Blossom", "count" : 1, "image" : "img/skills/alchemy/sky_blossom.png" }
+			],
+			"effect" : "Temporarily increases your sagecraft skill by 1",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Lightning Sentinel",
+			"reagents" : [
+				{ "name" : "Eel Petal", "count" : 2, "image" : "img/skills/alchemy/eel_petal.png" },
+				{ "name" : "Edelweiss", "count" : 1, "image" : "img/skills/alchemy/edelweiss.png" }
+			],
+			"effect" : "Temporarily gives a 50% chance to Shock enemies when attacked",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Lightning Storm",
+			"reagents" : [
+				{ "name" : "Eel Petal", "count" : 2, "image" : "img/skills/alchemy/eel_petal.png" },
+				{ "name" : "Scarwood Bark", "count" : 1, "image" : "img/skills/alchemy/scarwood_bark.png" }
+			],
+			"effect" : "Increases the damage you do with lightning-based attacks: +10 Lightning Damage, +25% Lightning Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Magebane",
+			"reagents" : [
+				{ "name" : "Star Thistle", "count" : 2, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Ysa's Breath", "count" : 2, "image" : "img/skills/alchemy/ysas_breath.png" }
+			],
+			"effect" : "Decreases all magic damage received by 25%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Magic Amplification",
+			"reagents" : [
+				{ "name" : "Star Thistle", "count" : 2, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Scarwood Bark", "count" : 2, "image" : "img/skills/alchemy/scarwood_bark.png" }
+			],
+			"effect" : "Increase all magic damage: 25%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Magic Precision",
+			"reagents" : [
+				{ "name" : "Scarab Salts", "count" : 2, "image" : "img/skills/alchemy/scarab_salts.png" },
+				{ "name" : "Star Thistle", "count" : 1, "image" : "img/skills/alchemy/star_thisle.png" }
+			],
+			"effect" : "Increases the chance that you will perform critical strikes with magic by 10%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Mana Potion",
+			"reagents" : [
+				{ "name" : "Softscrabble Powder", "count" : 2, "image" : "img/skills/alchemy/softscrabble_powder.png" },
+				{ "name" : "Embereyes", "count" : 1, "image" : "img/skills/alchemy/embereyes.png" }
+			],
+			"effect" : "Restores a small amount of your mana",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Mana Regen Potion",
+			"reagents" : [
+				{ "name" : "Softscrabble Powder", "count" : 2, "image" : "img/skills/alchemy/softscrabble_powder.png" },
+				{ "name" : "Scarlet Flowstone", "count" : 1, "image" : "img/skills/alchemy/scarlet_flowstone.png" }
+			],
+			"effect" : "Increases your Mana regeneration rate by a small amount: 5 mana regen per second for 60 seconds",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Mana Sap",
+			"reagents" : [
+				{ "name" : "Softscrabble Powder", "count" : 2, "image" : "img/skills/alchemy/softscrabble_powder.png" },
+				{ "name" : "Leechwood Bark", "count" : 2, "image" : "img/skills/alchemy/leechwood_bark.png" }
+			],
+			"effect" : "Increases the damage you do with mana absorption attacks: +10 Mana Stolen Per Hit",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Merchant's Command",
+			"reagents" : [
+				{ "name" : "Sativa Fibers", "count" : 1, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Sky Blossom", "count" : 1, "image" : "img/skills/alchemy/sky_blossom.png" }
+			],
+			"effect" : "Temporarily increases your mercantile skill by 1",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Piercing Serum",
+			"reagents" : [
+				{ "name" : "Scarwood Bark", "count" : 2, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Scarlet Flowstone", "count" : 1, "image" : "img/skills/alchemy/scarlet_flowstone.png" }
+			],
+			"effect" : "Increases your piercing damage attacks: +10 Piercing Damage, +25% Piercing Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Precision",
+			"reagents" : [
+				{ "name" : "Scarab Salts", "count" : 2, "image" : "img/skills/alchemy/scarab_salts.png" },
+				{ "name" : "Sativa Fibers", "count" : 1, "image" : "img/skills/alchemy/sativa_fibers.png" }
+			],
+			"effect" : "Increases the chance that you will perform critical strikes by 10%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Social Grace",
+			"reagents" : [
+				{ "name" : "Leechwood Bark", "count" : 1, "image" : "img/skills/alchemy/leechwood_bark.png" },
+				{ "name" : "Sky Blossom", "count" : 1, "image" : "img/skills/alchemy/sky_blossom.png" }
+			],
+			"effect" : "Temporarily increases your persuasion skill by 1",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Sorcerer's Intelligence",
+			"reagents" : [
+				{ "name" : "Softscrabble Powder", "count" : 2, "image" : "img/skills/alchemy/softscrabble_powder.png" },
+				{ "name" : "Star Thistle", "count" : 2, "image" : "img/skills/alchemy/star_thisle.png" }
+			],
+			"effect" : "Increases your total mana pool for a limited time by a small amount",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Serpent's Venom",
+			"reagents" : [
+				{ "name" : "Cripplespore Caps", "count" : 2, "image" : "img/skills/alchemy/cripplespore_caps.png" },
+				{ "name" : "Scarwood Bark", "count" : 1, "image" : "img/skills/alchemy/scarwood_bark.png" }
+			],
+			"effect" : "Increases damage you do with poison-based attacks: +10 Poison Damage, +25% Poison Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Slashing Fury",
+			"reagents" : [
+				{ "name" : "Scarlet Flowstone", "count" : 2, "image" : "img/skills/alchemy/scarlet_flowstone.png" },
+				{ "name" : "Scarwood Bark", "count" : 1, "image" : "img/skills/alchemy/scarwood_bark.png" }
+			],
+			"effect" : "Increases your bleeding damage attacks: +10 Bleeding Damage, +25% Bleeding Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Steeled Curtain",
+			"reagents" : [
+				{ "name" : "Seaflax", "count" : 2, "image" : "img/skills/alchemy/seaflax.png" },
+				{ "name" : "Ysa's Breath", "count" : 1, "image" : "img/skills/alchemy/ysas_breath.png" }
+			],
+			"effect" : "Increases your total armor by 25%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Thief's Cunning",
+			"reagents" : [
+				{ "name" : "Eel Petal", "count" : 1, "image" : "img/skills/alchemy/eel_petal.png" },
+				{ "name" : "Sky Blossom", "count" : 1, "image" : "img/skills/alchemy/sky_blossom.png" }
+			],
+			"effect" : "Temporarily increases your lockpicking skill by 1",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Tracker's Draught",
+			"reagents" : [
+				{ "name" : "Scarab Salts", "count" : 1, "image" : "img/skills/alchemy/scarab_salts.png" },
+				{ "name" : "Sky Blossom", "count" : 1, "image" : "img/skills/alchemy/sky_blossom.png" }
+			],
+			"effect" : "Temporarily increases your detect hidden skill by 1",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Venomguard",
+			"reagents" : [
+				{ "name" : "Cripplespore Caps", "count" : 2, "image" : "img/skills/alchemy/cripplespore_caps.png" },
+				{ "name" : "Ysa's Breath", "count" : 1, "image" : "img/skills/alchemy/ysas_breath.png" }
+			],
+			"effect" : "Decreases poison damage received by 25%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Warrior's Strength",
+			"reagents" : [
+				{ "name" : "Black Cohosh", "count" : 2, "image" : "img/skills/alchemy/black_cohosh.png" },
+				{ "name" : "Sativa Fibers", "count" : 2, "image" : "img/skills/alchemy/sativa_fibers.png" }
+			],
+			"effect" : "Increases your total health for a limited time by a small amount",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Purification Potion",
+			"reagents" : [
+				{ "name" : "Embereyes", "count" : 2, "image" : "img/skills/alchemy/embereyes.png" },
+				{ "name" : "Ysa's Breath", "count" : 2, "image" : "img/skills/alchemy/ysas_breath.png" }
+			],
+			"effect" : "Cures any non-magical diseases you may have and grants immunity to all diseases for a short duration",
+			"image" : "img/skills/alchemy/"
+		}
+	],
+	"greater" : [
+		{
+			"name" : "Greater Alchemist's Art",
+			"reagents" : [
+				{ "name" : "Embereyes", "count" : 2, "image" : "img/skills/alchemy/embereyes.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Temporarily increases your alchemy skill by 2",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Assassin's Evasion",
+			"reagents" : [
+				{ "name" : "Cripplespore Caps", "count" : 2, "image" : "img/skills/alchemy/cripplespore_caps.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Temporarily increases your stealth skill by 2",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Blacksmith's Craft",
+			"reagents" : [
+				{ "name" : "Tindertwig", "count" : 2, "image" : "img/skills/alchemy/tinderwig.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Temporarily increases your blacksmith skill by 2",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Blazing Salve",
+			"reagents" : [
+				{ "name" : "Tindertwig", "count" : 3, "image" : "img/skills/alchemy/tinderwig.png" },
+				{ "name" : "Scarwood Bark", "count" : 2, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Increases the damage you do with fire-based attacks: +20 Fire Damage, +50% Fire Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Bleeding Resistance",
+			"reagents" : [
+				{ "name" : "Scarlet Flowstone", "count" : 2, "image" : "img/skills/alchemy/scarlet_flowstone.png" },
+				{ "name" : "Ysa's Breath", "count" : 2, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" }
+			],
+			"effect" : "Decreases bleeding damage received by 50%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Burning Sentinel",
+			"reagents" : [
+				{ "name" : "Tindertwig", "count" : 3, "image" : "img/skills/alchemy/tinderwig.png" },
+				{ "name" : "Edelweiss", "count" : 2, "image" : "img/skills/alchemy/edelweiss.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" }
+			],
+			"effect" : "Temporarily gives a 60% chance to Burn enemies when attacked",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Current Stopper",
+			"reagents" : [
+				{ "name" : "Eel Petal", "count" : 2, "image" : "img/skills/alchemy/eel_petal.png" },
+				{ "name" : "Ysa's Breath", "count" : 2, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" }
+			],
+			"effect" : "Decreases lightning damage received by 50%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Dispelling Boost",
+			"reagents" : [
+				{ "name" : "Star Thistle", "count" : 2, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Temporarily increases your dispelling skill by 2",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Experience Booster",
+			"reagents" : [
+				{ "name" : "Prismere Dust", "count" : 3, "image" : "img/skills/alchemy/prismere_dust.png" },
+				{ "name" : "Leechwood Bark", "count" : 2, "image" : "img/skills/alchemy/leechwood_bark.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Increases the XP you receive per kill by 15%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Flameguard",
+			"reagents" : [
+				{ "name" : "Tindertwig", "count" : 2, "image" : "img/skills/alchemy/tinderwig.png" },
+				{ "name" : "Ysa's Breath", "count" : 2, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" }
+			],
+			"effect" : "Decreases fire damage received by 50%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Flesh Eater",
+			"reagents" : [
+				{ "name" : "Black Cohosh", "count" : 3, "image" : "img/skills/alchemy/black_cohosh.png" },
+				{ "name" : "Leechwood Bark", "count" : 3, "image" : "img/skills/alchemy/leechwood_bark.png" },
+				{ "name" : "Scarwood Bark", "count" : 1, "image" : "img/skills/alchemy/scarwood_bark.png" }
+			],
+			"effect" : "Increase the damage you do with health absorption attacks: +15 Health Stolen Per Hit",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Force Potion",
+			"reagents" : [
+				{ "name" : "Sativa Fibers", "count" : 3, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Scarwood Bark", "count" : 3, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Increases physical damage: +50% Physical Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Freezing Sentinel",
+			"reagents" : [
+				{ "name" : "White Flake", "count" : 3, "image" : "img/skills/alchemy/white_flake.png" },
+				{ "name" : "Edelweiss", "count" : 2, "image" : "img/skills/alchemy/edelweiss.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" }
+			],
+			"effect" : "Temporarily gives a 60% chance to Freeze enemies when attacked",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Frostbite",
+			"reagents" : [
+				{ "name" : "White Flake", "count" : 3, "image" : "img/skills/alchemy/white_flake.png" },
+				{ "name" : "Scarwood Bark", "count" : 2, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Increases the damage you do with ice-based attacks: +20 Ice Damage, +50% Ice Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Frostguard",
+			"reagents" : [
+				{ "name" : "White Flake", "count" : 2, "image" : "img/skills/alchemy/white_flake.png" },
+				{ "name" : "Ysa's Breath", "count" : 2, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" }
+			],
+			"effect" : "Decreases ice damage received by 50%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Hardened Shell",
+			"reagents" : [
+				{ "name" : "Sativa Fibers", "count" : 3, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Ysa's Breath", "count" : 3, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" }
+			],
+			"effect" : "Increase your physical-based resistance by 50%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Healing Potion",
+			"reagents" : [
+				{ "name" : "Black Cohosh", "count" : 3, "image" : "img/skills/alchemy/black_cohosh.png" },
+				{ "name" : "Embereyes", "count" : 2, "image" : "img/skills/alchemy/embereyes.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Restores a moderate amount of your health",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Health Regen Potion",
+			"reagents" : [
+				{ "name" : "Black Cohosh", "count" : 3, "image" : "img/skills/alchemy/black_cohosh.png" },
+				{ "name" : "Scarlet Flowstone", "count" : 2, "image" : "img/skills/alchemy/scarlet_flowstone.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Increases your health regeneration rate by a moderate amount: 20 health regen per second for 60 seconds",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Jeweled Shilelagh",
+			"reagents" : [
+				{ "name" : "White Flake", "count" : 2, "image" : "img/skills/alchemy/white_flake.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Temporarily increases your sagecraft skill by 2",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Lightning Sentinel",
+			"reagents" : [
+				{ "name" : "Eel Petal", "count" : 3, "image" : "img/skills/alchemy/eel_petal.png" },
+				{ "name" : "Edelweiss", "count" : 2, "image" : "img/skills/alchemy/edelweiss.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" }
+			],
+			"effect" : "Temporarily gives a 60% chance to Shock enemies when attacked",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Lightning Storm",
+			"reagents" : [
+				{ "name" : "Eel Petal", "count" : 3, "image" : "img/skills/alchemy/eel_petal.png" },
+				{ "name" : "Scarwood Bark", "count" : 2, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Increases the damage you do with lightning-based attacks: +20 Lightning Damage, +50% Lightning Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Magebane",
+			"reagents" : [
+				{ "name" : "Star Thistle", "count" : 3, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Ysa's Breath", "count" : 3, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" }
+			],
+			"effect" : "Decreases all magic damage received by 50%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Magic Amplification",
+			"reagents" : [
+				{ "name" : "Star Thistle", "count" : 3, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Scarwood Bark", "count" : 3, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Increase all magic damage: 50%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Magic Precision",
+			"reagents" : [
+				{ "name" : "Scarab Salts", "count" : 3, "image" : "img/skills/alchemy/scarab_salts.png" },
+				{ "name" : "Star Thistle", "count" : 2, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Scarwood Bark", "count" : 1, "image" : "img/skills/alchemy/scarwood_bark.png" }
+			],
+			"effect" : "Increases the chance that you will perform critical strikes with magic by 15%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Mana Potion",
+			"reagents" : [
+				{ "name" : "Softscrabble Powder", "count" : 3, "image" : "img/skills/alchemy/softscrabble_powder.png" },
+				{ "name" : "Embereyes", "count" : 2, "image" : "img/skills/alchemy/embereyes.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Restores a moderate amount of your mana",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Mana Regen Potion",
+			"reagents" : [
+				{ "name" : "Softscrabble Powder", "count" : 3, "image" : "img/skills/alchemy/softscrabble_powder.png" },
+				{ "name" : "Scarlet Flowstone", "count" : 2, "image" : "img/skills/alchemy/scarlet_flowstone.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Increases your Mana regeneration rate by a moderate amount: 20 mana regen per second for 60 seconds",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Mana Sap",
+			"reagents" : [
+				{ "name" : "Softscrabble Powder", "count" : 3, "image" : "img/skills/alchemy/softscrabble_powder.png" },
+				{ "name" : "Leechwood Bark", "count" : 3, "image" : "img/skills/alchemy/leechwood_bark.png" },
+				{ "name" : "Scarwood Bark", "count" : 1, "image" : "img/skills/alchemy/scarwood_bark.png" }
+			],
+			"effect" : "Increases the damage you do with mana absorption attacks: +15 Mana Stolen Per Hit",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Merchant's Command",
+			"reagents" : [
+				{ "name" : "Sativa Fibers", "count" : 2, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Temporarily increases your mercantile skill by 2",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Piercing Serum",
+			"reagents" : [
+				{ "name" : "Scarwood Bark", "count" : 3, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Ysa's Breath", "count" : 3, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Sativa Fibers", "count" : 1, "image" : "img/skills/alchemy/sativa_fibers.png" }
+			],
+			"effect" : "Increases your piercing damage attacks: +20 Piercing Damage, +50% Piercing Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Precision",
+			"reagents" : [
+				{ "name" : "Scarab Salts", "count" : 3, "image" : "img/skills/alchemy/scarab_salts.png" },
+				{ "name" : "Sativa Fibers", "count" : 2, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Scarwood Bark", "count" : 1, "image" : "img/skills/alchemy/scarwood_bark.png" }
+			],
+			"effect" : "Increases the chance that you will perform critical strikes by 15%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Social Grace",
+			"reagents" : [
+				{ "name" : "Leechwood Bark", "count" : 2, "image" : "img/skills/alchemy/leechwood_bark.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Temporarily increases your persuasion skill by 2",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Sorcerer's Intelligence",
+			"reagents" : [
+				{ "name" : "Softscrabble Powder", "count" : 3, "image" : "img/skills/alchemy/softscrabble_powder.png" },
+				{ "name" : "Star Thistle", "count" : 3, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Increases your total mana pool for a limited time by a moderate amount",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Serpent's Venom",
+			"reagents" : [
+				{ "name" : "Cripplespore Caps", "count" : 3, "image" : "img/skills/alchemy/cripplespore_caps.png" },
+				{ "name" : "Scarwood Bark", "count" : 2, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Increases damage you do with poison-based attacks: +20 Poison Damage, +50% Poison Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Slashing Fury",
+			"reagents" : [
+				{ "name" : "Scarlet Flowstone", "count" : 3, "image" : "img/skills/alchemy/scarlet_flowstone.png" },
+				{ "name" : "Scarwood Bark", "count" : 2, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Increases your bleeding damage attacks: +20 Bleeding Damage, +50% Bleeding Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Steeled Curtain",
+			"reagents" : [
+				{ "name" : "Seaflax", "count" : 2, "image" : "img/skills/alchemy/seaflax.png" },
+				{ "name" : "Ysa's Breath", "count" : 2, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Increases your total armor by 50%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Thief's Cunning",
+			"reagents" : [
+				{ "name" : "Eel Petal", "count" : 2, "image" : "img/skills/alchemy/eel_petal.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Temporarily increases your lockpicking skill by 2",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Tracker's Draught",
+			"reagents" : [
+				{ "name" : "Scarab Salts", "count" : 2, "image" : "img/skills/alchemy/scarab_salts.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Temporarily increases your detect hidden skill by 2",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Venomguard",
+			"reagents" : [
+				{ "name" : "Cripplespore Caps", "count" : 2, "image" : "img/skills/alchemy/cripplespore_caps.png" },
+				{ "name" : "Ysa's Breath", "count" : 2, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" }
+			],
+			"effect" : "Decreases poison damage received by 50%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Warrior's Strength",
+			"reagents" : [
+				{ "name" : "Black Cohosh", "count" : 3, "image" : "img/skills/alchemy/black_cohosh.png" },
+				{ "name" : "Sativa Fibers", "count" : 3, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" }
+			],
+			"effect" : "Increases your total health for a limited time by a moderate amount",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Liquid Seduction",
+			"reagents" : [
+				{ "name" : "Scarwood Bark", "count" : 1, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Tindertwig", "count" : 1, "image" : "img/skills/alchemy/tinderwig.png" },
+				{ "name" : "Sky Blossom", "count" : 1, "image" : "img/skills/alchemy/sky_blossom.png" }
+			],
+			"effect" : "Makes it easier to socialize with and persuade the opposite sex",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Damage Boost",
+			"reagents" : [
+				{ "name" : "Sativa Fibers", "count" : 3, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Star Thistle", "count" : 3, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Scarwood Bark", "count" : 2, "image" : "img/skills/alchemy/scarwood_bark.png" }
+			],
+			"effect" : "Increases the damage of all your attacks: +15% damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Damage Deflection",
+			"reagents" : [
+				{ "name" : "Sativa Fibers", "count" : 2, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Star Thistle", "count" : 2, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Ysa's Breath", "count" : 1, "image" : "img/skills/alchemy/ysas_breath.png" }
+			],
+			"effect" : "Decreases all damage received by 25%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Minor Phasewalk",
+			"reagents" : [
+				{ "name" : "Star Thistle", "count" : 2, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Cripplespore Caps", "count" : 1, "image" : "img/skills/alchemy/cripplespore_caps.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" }
+			],
+			"effect" : "Renders the user invisible",
+			"image" : "img/skills/alchemy/"
+		}
+	],
+	"master" : [
+		{
+			"name" : "Fate Potion",
+			"reagents" : [
+				{ "name" : "Essence of Fate", "count" : 4, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "A potion to instantly fill your Fate energy bar completely",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Damage Boost",
+			"reagents" : [
+				{ "name" : "Sativa Fibers", "count" : 4, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Star Thistle", "count" : 4, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Scarwood Bark", "count" : 3, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increases the damage of all your attacks: +20% damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Damage Deflection",
+			"reagents" : [
+				{ "name" : "Sativa Fibers", "count" : 3, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Star Thistle", "count" : 3, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Ysa's Breath", "count" : 2, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Decreases all damage received by 50%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Greater Phasewalk",
+			"reagents" : [
+				{ "name" : "Star Thistle", "count" : 2, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Cripplespore Caps", "count" : 1, "image" : "img/skills/alchemy/cripplespore_caps.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Renders the user invisible",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Alchemist's Art",
+			"reagents" : [
+				{ "name" : "Embereyes", "count" : 2, "image" : "img/skills/alchemy/embereyes.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 2, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Temporarily increases your alchemy skill by 3",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Assassin's Evasion",
+			"reagents" : [
+				{ "name" : "Cripplespore Caps", "count" : 2, "image" : "img/skills/alchemy/cripplespore_caps.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 2, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Temporarily increases your stealth skill by 3",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Blacksmith's Craft",
+			"reagents" : [
+				{ "name" : "Tindertwig", "count" : 2, "image" : "img/skills/alchemy/tinderwig.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 2, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Temporarily increases your blacksmith skill by 3",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Blazing Salve",
+			"reagents" : [
+				{ "name" : "Tindertwig", "count" : 3, "image" : "img/skills/alchemy/tinderwig.png" },
+				{ "name" : "Scarwood Bark", "count" : 2, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increases the damage you do with fire-based attacks: +30 Fire Damage, +75% Fire Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Bleeding Resistance",
+			"reagents" : [
+				{ "name" : "Scarlet Flowstone", "count" : 2, "image" : "img/skills/alchemy/scarlet_flowstone.png" },
+				{ "name" : "Ysa's Breath", "count" : 2, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Decreases bleeding damage received by 75%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Burning Sentinel",
+			"reagents" : [
+				{ "name" : "Tindertwig", "count" : 3, "image" : "img/skills/alchemy/tinderwig.png" },
+				{ "name" : "Edelweiss", "count" : 2, "image" : "img/skills/alchemy/edelweiss.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Temporarily gives a 70% chance to Burn enemies when attacked",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Current Stopper",
+			"reagents" : [
+				{ "name" : "Eel Petal", "count" : 2, "image" : "img/skills/alchemy/eel_petal.png" },
+				{ "name" : "Ysa's Breath", "count" : 2, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Decreases lightning damage received by 75%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Dispelling Boost",
+			"reagents" : [
+				{ "name" : "Star Thistle", "count" : 2, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 2, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Temporarily increases your dispelling skill by 3",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Experience Booster",
+			"reagents" : [
+				{ "name" : "Prismere Dust", "count" : 3, "image" : "img/skills/alchemy/prismere_dust.png" },
+				{ "name" : "Leechwood Bark", "count" : 2, "image" : "img/skills/alchemy/leechwood_bark.png" },
+				{ "name" : "Bloodroot", "count" : 2, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increases the XP you receive per kill by 20%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Flameguard",
+			"reagents" : [
+				{ "name" : "Tindertwig", "count" : 2, "image" : "img/skills/alchemy/tinderwig.png" },
+				{ "name" : "Ysa's Breath", "count" : 2, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Decreases fire damage received by 75%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Flesh Eater",
+			"reagents" : [
+				{ "name" : "Black Cohosh", "count" : 3, "image" : "img/skills/alchemy/black_cohosh.png" },
+				{ "name" : "Leechwood Bark", "count" : 3, "image" : "img/skills/alchemy/leechwood_bark.png" },
+				{ "name" : "Scarwood Bark", "count" : 2, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increase the damage you do with health absorption attacks: +20 Health Stolen Per Hit",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Force Potion",
+			"reagents" : [
+				{ "name" : "Sativa Fibers", "count" : 3, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Scarwood Bark", "count" : 3, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Bloodroot", "count" : 2, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increases physical damage: +75% Physical Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Freezing Sentinel",
+			"reagents" : [
+				{ "name" : "White Flake", "count" : 3, "image" : "img/skills/alchemy/white_flake.png" },
+				{ "name" : "Edelweiss", "count" : 2, "image" : "img/skills/alchemy/edelweiss.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Temporarily gives a 70% chance to Freeze enemies when attacked",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Frostbite",
+			"reagents" : [
+				{ "name" : "White Flake", "count" : 3, "image" : "img/skills/alchemy/white_flake.png" },
+				{ "name" : "Scarwood Bark", "count" : 2, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increases the damage you do with ice-based attacks: +30 Ice Damage, +75% Ice Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Frostguard",
+			"reagents" : [
+				{ "name" : "White Flake", "count" : 2, "image" : "img/skills/alchemy/white_flake.png" },
+				{ "name" : "Ysa's Breath", "count" : 2, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Decreases ice damage received by 75%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Hardened Shell",
+			"reagents" : [
+				{ "name" : "Sativa Fibers", "count" : 3, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Ysa's Breath", "count" : 3, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Seaflax", "count" : 2, "image" : "img/skills/alchemy/seaflax.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increase your physical-based resistance by 75%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Healing Potion",
+			"reagents" : [
+				{ "name" : "Black Cohosh", "count" : 3, "image" : "img/skills/alchemy/black_cohosh.png" },
+				{ "name" : "Embereyes", "count" : 2, "image" : "img/skills/alchemy/embereyes.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Restores a large amount of your health",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Health Regen Potion",
+			"reagents" : [
+				{ "name" : "Black Cohosh", "count" : 3, "image" : "img/skills/alchemy/black_cohosh.png" },
+				{ "name" : "Scarlet Flowstone", "count" : 2, "image" : "img/skills/alchemy/scarlet_flowstone.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence fo Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increases your health regeneration rate by a large amount",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Jeweled Shilelagh",
+			"reagents" : [
+				{ "name" : "White Flake", "count" : 2, "image" : "img/skills/alchemy/white_flake.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 2, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Temporarily increases your sagecraft skill by 3",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Lightning Sentinel",
+			"reagents" : [
+				{ "name" : "Eel Petal", "count" : 3, "image" : "img/skills/alchemy/eel_petal.png" },
+				{ "name" : "Edelweiss", "count" : 2, "image" : "img/skills/alchemy/edelweiss.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Temporarily gives a 70% chance to Shock enemies when attacked",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Lightning Storm",
+			"reagents" : [
+				{ "name" : "Eel Petal", "count" : 3, "image" : "img/skills/alchemy/eel_petal.png" },
+				{ "name" : "Scarwood Bark", "count" : 2, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increases the damage you do with lightning-based attacks: +30 Lightning Damage, +75% Lightning Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Magebane",
+			"reagents" : [
+				{ "name" : "Star Thistle", "count" : 3, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Ysa's Breath", "count" : 3, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Seaflax", "count" : 2, "image" : "img/skills/alchemy/seaflax.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Decreases all magic damage received by 75%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Magic Amplification",
+			"reagents" : [
+				{ "name" : "Star Thistle", "count" : 3, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Scarwood Bark", "count" : 3, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Bloodroot", "count" : 2, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increase all magic damage: 75%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Magic Precision",
+			"reagents" : [
+				{ "name" : "Scarab Salts", "count" : 3, "image" : "img/skills/alchemy/scarab_salts.png" },
+				{ "name" : "Star Thistle", "count" : 2, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Scarwood Bark", "count" : 2, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increases the chance that you will perform critical strikes with magic by 30%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Mana Potion",
+			"reagents" : [
+				{ "name" : "Softscrabble Powder", "count" : 3, "image" : "img/skills/alchemy/softscrabble_powder.png" },
+				{ "name" : "Embereyes", "count" : 2, "image" : "img/skills/alchemy/embereyes.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : " Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Restores a large amount of your mana",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Mana Regen Potion",
+			"reagents" : [
+				{ "name" : "Softscrabble Powder", "count" : 3, "image" : "img/skills/alchemy/softscrabble_powder.png" },
+				{ "name" : "Scarlet Flowstone", "count" : 2, "image" : "img/skills/alchemy/scarlet_flowstone.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : " Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increases your Mana regeneration rate by a large amount",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Mana Sap",
+			"reagents" : [
+				{ "name" : "Softscrabble Powder", "count" : 3, "image" : "img/skills/alchemy/softscrabble_powder.png" },
+				{ "name" : "Leechwood Bark", "count" : 3, "image" : "img/skills/alchemy/leechwood_bark.png" },
+				{ "name" : "Scarwood Bark", "count" : 2, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : " Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increases the damage you do with mana absorption attacks: +20 Mana Stolen Per Hit",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Merchant's Command",
+			"reagents" : [
+				{ "name" : "Sativa Fibers", "count" : 2, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 2, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Temporarily increases your mercantile skill by 3",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Piercing Serum",
+			"reagents" : [
+				{ "name" : "Scarwood Bark", "count" : 3, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Ysa's Breath", "count" : 3, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Sativa Fibers", "count" : 2, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increases your piercing damage attacks: +30 Piercing Damage, +75% Piercing Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Precision",
+			"reagents" : [
+				{ "name" : "Scarab Salts", "count" : 3, "image" : "img/skills/alchemy/scarab_salts.png" },
+				{ "name" : "Sativa Fibers", "count" : 2, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Scarwood Bark", "count" : 2, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increases the chance that you will perform critical strikes by 30%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Social Grace",
+			"reagents" : [
+				{ "name" : "Leechwood Bark", "count" : 2, "image" : "img/skills/alchemy/leechwood_bark.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 2, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Temporarily increases your persuasion skill by 3",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Sorcerer's Intelligence",
+			"reagents" : [
+				{ "name" : "Softscrabble Powder", "count" : 3, "image" : "img/skills/alchemy/softscrabble_powder.png" },
+				{ "name" : "Star Thistle", "count" : 3, "image" : "img/skills/alchemy/star_thisle.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increases your total mana pool for a limited time by a large amount",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Serpent's Venom",
+			"reagents" : [
+				{ "name" : "Cripplespore Caps", "count" : 3, "image" : "img/skills/alchemy/cripplespore_caps.png" },
+				{ "name" : "Scarwood Bark", "count" : 2, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increases damage you do with poison-based attacks: +30 Poison Damage, +75% Poison Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Slashing Fury",
+			"reagents" : [
+				{ "name" : "Scarlet Flowstone", "count" : 3, "image" : "img/skills/alchemy/scarlet_flowstone.png" },
+				{ "name" : "Scarwood Bark", "count" : 2, "image" : "img/skills/alchemy/scarwood_bark.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increases your bleeding damage attacks: +30 Bleeding Damage, +75% Bleeding Damage",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Steeled Curtain",
+			"reagents" : [
+				{ "name" : "Seaflax", "count" : 2, "image" : "img/skills/alchemy/seaflax.png" },
+				{ "name" : "Ysa's Breath", "count" : 2, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increases your total armor by 75%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Thief's Cunning",
+			"reagents" : [
+				{ "name" : "Eel Petal", "count" : 2, "image" : "img/skills/alchemy/eel_petal.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Temporarily increases your lockpicking skill by 3",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Tracker's Draught",
+			"reagents" : [
+				{ "name" : "Scarab Salts", "count" : 2, "image" : "img/skills/alchemy/scarab_salts.png" },
+				{ "name" : "Sky Blossom", "count" : 2, "image" : "img/skills/alchemy/sky_blossom.png" },
+				{ "name" : "Bloodroot", "count" : 2, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Temporarily increases your detect hidden skill by 3",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Venomguard",
+			"reagents" : [
+				{ "name" : "Cripplespore Caps", "count" : 2, "image" : "img/skills/alchemy/cripplespore_caps.png" },
+				{ "name" : "Ysa's Breath", "count" : 2, "image" : "img/skills/alchemy/ysas_breath.png" },
+				{ "name" : "Seaflax", "count" : 1, "image" : "img/skills/alchemy/seaflax.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Decreases poison damage received by 75%",
+			"image" : "img/skills/alchemy/"
+		},
+		{
+			"name" : "Master Warrior's Strength",
+			"reagents" : [
+				{ "name" : "Black Cohosh", "count" : 3, "image" : "img/skills/alchemy/black_cohosh.png" },
+				{ "name" : "Sativa Fibers", "count" : 3, "image" : "img/skills/alchemy/sativa_fibers.png" },
+				{ "name" : "Bloodroot", "count" : 1, "image" : "img/skills/alchemy/bloodroot.png" },
+				{ "name" : "Essence of Fate", "count" : 1, "image" : "img/skills/alchemy/essence_of_fate.png" }
+			],
+			"effect" : "Increases your total health for a limited time by a large amount",
+			"image" : "img/skills/alchemy/"
+		}
+	]
+}

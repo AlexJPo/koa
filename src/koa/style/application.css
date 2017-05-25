@@ -26,7 +26,7 @@
 .label { -fx-font-style: italic; }
 */
 #borderPane { -fx-background-color: black; }
-#border-pane-center { -fx-background-color: #a27463; }
+#border-pane-center { -fx-background-color: #523518; }
 #reagentsList, #topMenu { -fx-background-color: black; }
 #potion-type { -fx-cursor: hand; -fx-text-fill: #dbcdcb; }
 .potion-type-active { -fx-text-fill: #f0ecf0!important; }
@@ -56,5 +56,5 @@
 	-fx-text-fill: #f0ecf0;
 	-fx-font-weight: bold;
 }
-.scroll-bar { -fx-border-color: #a27463; }
-.thumb { -fx-background-color: #a27463; }
+.scroll-bar { -fx-border-color: #523518; }
+.thumb { -fx-background-color: #523518; }

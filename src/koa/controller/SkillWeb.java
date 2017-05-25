@@ -7,12 +7,10 @@ import javafx.fxml.FXML;
 import javafx.scene.web.WebView;
 
 public class SkillWeb {
-
 	@FXML 
 	private WebView webViewSkills;
 	@FXML
 	private WebView webViewAbilities;
-	
 	
 	@FXML
 	public void initialize() throws MalformedURLException {

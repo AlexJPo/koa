@@ -20,7 +20,6 @@ public class Main extends Application {
 			Scene scene = new Scene(mainWindow, 400, 400);
 			scene.getStylesheets().add(getClass().getResource("/koa/style/application.css").toExternalForm());
 			
-			
 			primaryStage.setMinWidth(1150);
 			primaryStage.setMinHeight(600);
 			primaryStage.setScene(scene);
