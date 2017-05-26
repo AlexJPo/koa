@@ -21,7 +21,7 @@
                 </Tab>
                 <Tab text="Abilities">
                   <content>
-                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <AnchorPane id="onlyTopBorder" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
                               <WebView fx:id="webViewAbilities" layoutX="156.0" layoutY="65.0" prefHeight="-1.0" prefWidth="-1.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                            </children>
@@ -30,7 +30,7 @@
                 </Tab>
                 <Tab text="Alchemy receips">
                   	<content>
-                  		<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                  		<AnchorPane id="onlyTopBorder" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      		<children>
                     			<fx:include prefHeight="-1.0" prefWidth="-1.0" source="alchemy.fxml" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                       		</children>
@@ -41,9 +41,9 @@
     	</TabPane>
 	</center>
    <top>
-      <AnchorPane BorderPane.alignment="CENTER">
+      <AnchorPane id="menu-anchor-pane" BorderPane.alignment="CENTER" prefHeight="60">
          <children>
-            <MenuBar AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <MenuBar AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" maxHeight="40">
               <menus>
                 <Menu mnemonicParsing="false" text="File">
                   <items>
@@ -52,7 +52,7 @@
                 </Menu>
                 <Menu mnemonicParsing="false" text="Help">
                   <items>
-                    <MenuItem mnemonicParsing="false" text="About" />
+                    <MenuItem mnemonicParsing="false" onAction="#showAbout" text="About" />
                   </items>
                 </Menu>
               </menus>

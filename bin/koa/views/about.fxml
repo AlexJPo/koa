@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="koa.controller.About">
+   <top>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <children>
+            <Label id="about-title" alignment="CENTER" contentDisplay="CENTER" text="KOA: Reckoning - abilities and skills calculator" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </BorderPane.margin>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane BorderPane.alignment="CENTER">
+			<children>
+         	<VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+					<Label id="about-text" fx:id="aboutText" text="Label" wrapText="true" VBox.vgrow="ALWAYS">
+                    	<VBox.margin>
+                        	<Insets bottom="10.0" />
+                     	</VBox.margin>
+                    </Label>
+                  	<Label id="about-text" fx:id="tackedFrom" text="Label" VBox.vgrow="ALWAYS" />
+                  	<Hyperlink id="about-link" text="amalur.wikia.com" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </center>
+   <bottom>
+      <AnchorPane BorderPane.alignment="CENTER">
+          <children>
+            <VBox AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  	<Label id="about-text" fx:id="contactText" text="Label" wrapText="true" />
+                  	<Hyperlink id="about-link" text="swtorigra@gmail.com" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </bottom>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</BorderPane>

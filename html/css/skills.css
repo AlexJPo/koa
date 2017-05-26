@@ -66,6 +66,7 @@ td { padding: 0 10px; }
 	transition: all 0.3s ease-in-out;
 }
 .milestone-text, .desc-skill-name { color: #fdf0b9; }
+/*
 @media (max-width: 1130px) {
 	.desc-skill-name { font-size: 35px; }
 	.milestone-text,
@@ -75,4 +76,4 @@ td { padding: 0 10px; }
 	.skill-name { font-size: 20px; }
 	.block  { height: 38px; width: 28px; }
 	.milestone { font-size: 25px; }
-}
+}*/

@@ -70,7 +70,7 @@ td { padding: 0 10px; }
 .tab-wrap { display: flex; cursor: default; }
 .tab-item {
 	font-size: 22px;
-	color: #dbcdcb;
+	color: #a9a9a9;
 	padding: 10px 0px;
 	flex-grow: 1;
 	text-align: center;

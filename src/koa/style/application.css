@@ -25,10 +25,11 @@
 #skill { -fx-background-color: #333; }
 .label { -fx-font-style: italic; }
 */
+#mainWindowBorderPane { -fx-background-color: black; }
 #borderPane { -fx-background-color: black; }
 #border-pane-center { -fx-background-color: #523518; }
 #reagentsList, #topMenu { -fx-background-color: black; }
-#potion-type { -fx-cursor: hand; -fx-text-fill: #dbcdcb; }
+#potion-type { -fx-cursor: hand; -fx-text-fill: #a9a9a9; }
 .potion-type-active { -fx-text-fill: #f0ecf0!important; }
 #potion-type:hover { -fx-text-fill: #f0ecf0; }
 .table-view {
@@ -56,5 +57,41 @@
 	-fx-text-fill: #f0ecf0;
 	-fx-font-weight: bold;
 }
-.scroll-bar { -fx-border-color: #523518; }
-.thumb { -fx-background-color: #523518; }
+.table-view .scroll-bar { -fx-border-color: #523518; }
+.table-view .thumb { -fx-background-color: #523518; }
+/* TabPane  */
+.tab-pane { -fx-background-color: black; }
+.tab-pane .tab-header-area .tab-header-background { -fx-background-color: black;  }
+.tab-pane .tab-header-background { -fx-border-color: black, #523518, black, black; }
+.tab-pane .tab { -fx-background-color: black; -fx-border-color: #523518; }
+.tab-pane .tab:selected { -fx-background-color: black; }
+.tab-pane .tab:selected .tab-label { -fx-background-color: black; -fx-text-fill: #f0ecf0; }
+.tab-pane .tab-label {
+	-fx-background-color: black;
+	-fx-text-fill: #a9a9a9;
+	-fx-font-family: "Arial Bold";
+	-fx-font-size: 14px;
+}
+#onlyTopBorder {
+	-fx-border-color: #523518 black black black;
+}
+/* Top menu */
+#menu-anchor-pane { -fx-background-color: black; }
+.menu:hover { -fx-background-color: #3e3e3e; }
+.context-menu { -fx-background-color: #3e3e3e; }
+.menu-bar,
+.menu-item { -fx-background-color: #3e3e3e; -fx-selection-bar: #3e3e3e; }
+.menu-item { -fx-border-color: #3e3e3e; }
+.menu-item .label,
+.menu-bar .label {
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial Bold";
+    -fx-text-fill: #f0ecf0;
+}
+/* About page */
+#about-title { -fx-font-size: 16px; -fx-font-weight: bold; }
+#about-link { -fx-border-color: transparent; }
+#about-text { -fx-font-size: 14px; }
+
+
+

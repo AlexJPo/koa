@@ -7,6 +7,12 @@
 		<script src="js/model/koaabilities.js"></script>
 	</head>
 	<body>
+		<div class="btn-wrap">
+			<br>
+			<div class="totalpoints">Spended points: <span class="points-spend">0</span>/120
+			<input class="reset-btn" type="button" value="Reset" onClick="resetAll()">
+			</div>
+		</div>
 		<div class="tab-wrap">
 			<div class="tab-item" data-abilities="2"><span class="mainWord">S</span>ORCERY (<span class="spendPoint" data-abilities="2">0</span>)</div>
 			<div class="tab-item tab-item-active" data-abilities="0"><span class="mainWord">M</span>IGHT (<span class="spendPoint" data-abilities="0">0</span>)</div>
@@ -15,11 +21,6 @@
 		<div class="wrap">
 			<!-- Left column -->
 			<div class="wrap-col wrap-col-left">
-				<div class="btn-wrap">
-					<div class="totalpoints">Spended points: <span class="points-spend">0</span>/120</div>
-					<br>
-					<input class="reset-btn" type="button" value="Reset" onClick="resetAll()">
-				</div>
 				<div class="tabs tab-content tab-content-active" data-abilities="0">
 					<table>
 						<tbody class="abilities-table">
