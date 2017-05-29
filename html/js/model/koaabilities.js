@@ -273,9 +273,9 @@
 				{
 					name: 'Brutal Weaponry III',
 					type: '[Weapon Attacks]',
-					desc: 'Unlocks special attacks from Dodge for the Longsword and Greatsword. Horizon Edge - attack with the Longsword while dodging to slice across multiple enemies. Gravedigger - Attack with the Greatsword while dodging to perform a leaping ground strike.',
+					desc: 'Unlocks special attacks from Dodge for the Longsword and Greatsword.',
 					descAdv: [
-						'Unlocks special attacks from Dodge for the Longsword and Greatsword.',
+						'Horizon Edge - attack with the Longsword while dodging to slice across multiple enemies. Gravedigger - Attack with the Greatsword while dodging to perform a leaping ground strike.',
 						'Horizon Edge and Gravedigger can apply additional damage over time.',
 						'Horizon Edge and Gravedigger generate bonus fate.'
 					],
@@ -487,13 +487,13 @@
 				{
 					name: 'Precise Weaponry I',
 					type: '[Weapon Attacks]',
-					desc: 'Unlocks Charge special attacks for Daggers and Faeblades. Daggers: Shadow Strike - Hold and release the Daggers to begin a dashing combo that can be chained up to 5 times. Faeblade: Twisted Claw - Hold and release the Faeblades attack to spiral through your enemies.',
+					desc: 'Unlocks Charge special attacks for Daggers and Faeblades.',
 					reqAbility: false,
 					reqAbility1: '',
 					reqAbility2: '',
 					requires: '',
 					descAdv: [
-						'Unlocks Charge special attacks for Daggers and Faeblades. Shadow Strike - Hold and release the Daggers to begin a dashing combo that can be chained up to 5 times. Twisted Claw - Hold and release the Faeblades attack to spiral through your enemies.',
+						' Daggers: Shadow Strike - Hold and release the Daggers to begin a dashing combo that can be chained up to 5 times. Faeblade: Twisted Claw - Hold and release the Faeblades attack to spiral through your enemies.',
 						'Shadow Strike and Twisted Claw apply an additional damage over time effect.',
 						'Shadow Strike and Twisted Claw generate extra Fate.'
 					],
@@ -1070,13 +1070,13 @@
 				{
 					name: 'Arcane Weaponry II',
 					type: '[Weapon Attacks]',
-					desc: '',
+					desc: 'Unlocks special attacks from Block for the Staff and Sceptre and decreases the cost of Sceptre attacks from 5% of your Mana to 4%.',
 					reqAbility: true,
 					reqAbility1: 0,
 					reqAbility2: 0,
 					requires: 'Requires 5 points in Sorcery abilities, Requires Arcane Weaponry I',
 					descAdv: [
-						'Unlocks special attacks from Block for the Staff and Sceptre and decreases the cost of Sceptre attacks from 5% of your Mana to 4%. Mage\'s Vortex - Attack with your staff while holding Block to summon a small tornado at the feet of enemies in front of you while you take a spinning step backwards. Warding Blast - Press Attack while holding Block to perform a Sceptre blast that launches an enemy followed by a short ranged "shielding" attack while stepping forward slightly. Needs to be channeled to launch enemies up and away, otherwise it simply damages.',
+						'Mage\'s Vortex - Attack with your staff while holding Block to summon a small tornado at the feet of enemies in front of you while you take a spinning step backwards. Warding Blast - Press Attack while holding Block to perform a Sceptre blast that launches an enemy followed by a short ranged "shielding" attack while stepping forward slightly. Needs to be channeled to launch enemies up and away, otherwise it simply damages.',
 						'Mage\'s Vortex and Warding Blast apply an additional damage over time effect.',
 						'Mage\'s Vortex and Warding Blast generate extra Fate.'
 					],
@@ -1246,13 +1246,13 @@
 				{
 					name: 'Arcane Weaponry III',
 					type: '[Weapon Attacks]',
-					desc: 'Sends a scattered blast of ice shards into the air to crash down upon your foes, dealing Ice and Freezing Damage. Ice Barrage causes both Ice and Freezing Damage. Frostshackle and Winter\'s Embrace upgrade this ability.',
+					desc: 'Unlocks Delayed special attacks for the Staff and Chakrams and decreases the cost of Sceptre attacks from 4% of your Mana to 3%.',
 					reqAbility: true,
 					reqAbility1: 1,
 					reqAbility2: 0,
 					requires: 'Requires 35 points in Sorcery abilities, Requires Arcane Weaponry II',
 					descAdv: [
-						'Unlocks Delayed special attacks for the Staff and Chakrams and decreases the cost of Sceptre attacks from 4% of your Mana to 3%. Arcane Fury - Press Attack -> Pause -> Attack to perform a 2-part attack with a staff that launches enemies into the air and away from you. Elemental Escape - Press Attack -> Pause Attack to attack an enemy with both Chakrams then launch them into the ground at the enemy\'s feet, blasting them backwards while you jump away.',
+						'Arcane Fury - Press Attack -> Pause -> Attack to perform a 2-part attack with a staff that launches enemies into the air and away from you. Elemental Escape - Press Attack -> Pause Attack to attack an enemy with both Chakrams then launch them into the ground at the enemy\'s feet, blasting them backwards while you jump away.',
 						'Arcane Fury and Elemental Escape apply an additional damage over time effect.',
 						'Arcane Fury and Elemental Escape generate extra Fate.'
 					],
@@ -1341,13 +1341,13 @@
 				{
 					name: 'Arcane Weaponry IV',
 					type: '[Weapon Attacks]',
-					desc: 'Unlocks Charge special attacks for the Staff and Chakrams. Staff: Charged Entropy - Charges the Staff before slamming it into the ground and releasing a radial AoE attack, can be quick charged (1 flash) for short range or held (2 flashes) for longer range and more damage. Chakrams: Maelstrom - Charges the Chakrams then releases them to orbit the character in an increasing radius AoE attack, can be quick charged (1 flash) for short range or held (2 flashes) for longer range and more damage.',
+					desc: 'Unlocks Charge special attacks for the Staff and Chakrams and decreases the cost of Sceptre attacks from 6% of your Mana to 5%.',
 					reqAbility: true,
 					reqAbility1: 3,
 					reqAbility2: 0,
 					requires: 'Requires 50 points in Sorcery abilities, Requires Arcane Weaponry III',
 					descAdv: [
-						'Unlocks Charge special attacks for the Staff and Chakrams and decreases the cost of Sceptre attacks from 6% of your Mana to 5%. Charged Entropy - Charges the Staff before slamming it into the ground and releasing a radial area of effect attack, can be quick charged for a point blank, held for (1 flash) for short range or held (2 flashes) for longer range and more damage. Maelstrom - Charges the Chakrams then releases them to orbit the character in an increasing radius area of effect attack, can be quick charged for a very short, single chakram throw, held for (1 flash) for short range or held (2 flashes) for longer range and more damage.',
+						'Charged Entropy - Charges the Staff before slamming it into the ground and releasing a radial area of effect attack, can be quick charged for a point blank, held for (1 flash) for short range or held (2 flashes) for longer range and more damage. Maelstrom - Charges the Chakrams then releases them to orbit the character in an increasing radius area of effect attack, can be quick charged for a very short, single chakram throw, held for (1 flash) for short range or held (2 flashes) for longer range and more damage.',
 						'Charged Entropy and Maelstrom apply an additional damage over time effect.',
 						'Charged Entropy and Maelstrom generate extra Fate'
 					],

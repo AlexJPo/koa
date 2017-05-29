@@ -106,6 +106,10 @@ $(document).ready(function() {
 			$('.ability-req').append(li);
 		}
 
+		if (currentAbility.currentLevel === 0) {
+			$('.ability-textAdv').append('<li><span class="req-white">' +  currentAbility.descAdv[0] + '</span></li>');
+		}
+
 		updateCurrentLevel(currentAbility);
 	}).on('mouseout' ,function(){
 		$(this).removeClass('active-label');
@@ -125,11 +129,11 @@ $(document).ready(function() {
 		}
 	}
 	function updateTableRow(abilityIndex, indexRow){
-		var abilityTableRow = $('.abilities-table-row' + indexRow);
-		var abilityRow = $('.abilities-row' + indexRow);
+		var abilityTableRow = $('.abilities-table-row' + indexRow + '[data-abilities='+ abilityIndex +']');
+		var abilityRow = $('.abilities-row' + indexRow + '[data-abilities='+ abilityIndex +']');
 
 		abilityTableRow.find('.block-arrow').each(function(){
-			if (abilityTableRow.data('abilities') === abilityIndex) {
+			if ($(this).data('abilities') === abilityIndex) {
 				$(this).addClass('active-arrow');
 			}
 		});

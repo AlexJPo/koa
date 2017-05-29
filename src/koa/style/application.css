@@ -25,6 +25,33 @@
 #skill { -fx-background-color: #333; }
 .label { -fx-font-style: italic; }
 */
+
+/* Skills */
+#skills-border-pane { -fx-background-color: black; }
+#skills-border-pane .label { -fx-font-family: "Segoe UI"; -fx-font-weight: bold; }
+#skill-right-col {
+	-fx-border-width: 0 0 0 5px;
+	-fx-border-color: #523518;
+	-fx-border-style: solid;
+}
+#skill-desc-main { -fx-font-size: 20px; -fx-text-fill: #f0ecf0; }
+#skill-desc-name {
+	-fx-text-fill: #fdf0b9;
+	-fx-font-size: 40px;
+	-fx-border-width: 0 0 10px 0;
+	-fx-border-color: #523518;
+	-fx-border-style: solid;
+}
+#skill-milestone-text,
+#skill-text-desc,
+#skill-text-advanced { -fx-font-size: 24px; -fx-text-fill: #fdf0b9; }
+#skill-text-desc, #skill-text-advanced { -fx-text-fill: #f0ecf0; }
+.skill-level,
+.skill-level-active { -fx-font-size: 24px; }
+.skill-level { 	-fx-text-fill: #e43a3a; }
+.skill-level-active { -fx-text-fill: #f0ecf0; }
+
+
 #mainWindowBorderPane { -fx-background-color: black; }
 #borderPane { -fx-background-color: black; }
 #border-pane-center { -fx-background-color: #523518; }
@@ -52,7 +79,7 @@
 }
 .table-view .table-row-cell:selected { -fx-border-color: #f0ecf0; -fx-background-color: transparent; }
 #ingridients {
-	-fx-font-family: "Arial Bold";
+	-fx-font-family: "Segoe UI";
 	-fx-font-size: 20px;
 	-fx-text-fill: #f0ecf0;
 	-fx-font-weight: bold;
@@ -69,7 +96,7 @@
 .tab-pane .tab-label {
 	-fx-background-color: black;
 	-fx-text-fill: #a9a9a9;
-	-fx-font-family: "Arial Bold";
+	-fx-font-family: "Segoe UI";
 	-fx-font-size: 14px;
 }
 #onlyTopBorder {
@@ -85,7 +112,7 @@
 .menu-item .label,
 .menu-bar .label {
     -fx-font-size: 14px;
-    -fx-font-family: "Arial Bold";
+    -fx-font-family: "Segoe UI";
     -fx-text-fill: #f0ecf0;
 }
 /* About page */

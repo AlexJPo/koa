@@ -24,7 +24,7 @@ public class SkillWeb {
 		String urlSkills = new File("html/skills.html").toURI().toURL().toExternalForm();
 		String urlAbilities = new File("html/abilities.html").toURI().toURL().toExternalForm();
 
-		webViewSkills.getEngine().load(urlSkills);
+		//webViewSkills.getEngine().load(urlSkills);
 		webViewAbilities.getEngine().load(urlAbilities);		
 	}
 	
