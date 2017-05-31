@@ -45,12 +45,19 @@
 #skill-milestone-text,
 #skill-text-desc,
 #skill-text-advanced { -fx-font-size: 24px; -fx-text-fill: #fdf0b9; }
-#skill-text-desc, #skill-text-advanced { -fx-text-fill: #f0ecf0; }
+
+#skill-text-desc,
+#skill-text-advanced { -fx-text-fill: #f0ecf0; }
+
 .skill-level,
-.skill-level-active { -fx-font-size: 24px; }
+.skill-level-active,
+#skill-name,
+.default-label { -fx-font-size: 24px; }
+
 .skill-level { 	-fx-text-fill: #e43a3a; }
 .skill-level-active { -fx-text-fill: #f0ecf0; }
-
+.default-label { -fx-text-fill: #666666; }
+.default-label:hover { -fx-text-fill: #dcdcdc; }
 
 #mainWindowBorderPane { -fx-background-color: black; }
 #borderPane { -fx-background-color: black; }

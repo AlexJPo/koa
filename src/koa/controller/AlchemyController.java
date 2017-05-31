@@ -3,13 +3,7 @@ package koa.controller;
 import javafx.geometry.Rectangle2D;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStreamReader;
-import java.io.Reader;
 import java.util.List;
-
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -26,6 +20,7 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
+import koa.helpers.JsonHelper;
 import koa.model.*;
 
 public class AlchemyController {
@@ -54,28 +49,14 @@ public class AlchemyController {
 	
 	@FXML
 	private void initialize() {
-		receips = new Receip();
-		
-		parseJsonModelFromFile(ALCHEMY_MODEL_FILE);
+		receips = new Receip();		
+		receips = (Receip) JsonHelper.parseJsonModelFromFile(ALCHEMY_MODEL_FILE, receips, Receip.class);
 		
 		currentPotionType = receips.getMinor();		
 		personData = FXCollections.observableArrayList(currentPotionType);
 		
 		setTableData();			
 		setCustomProperties();
-	}
-	
-	private void parseJsonModelFromFile(String filePath) {
-		Reader reader;
-
-		try {
-			reader = new InputStreamReader(new FileInputStream(filePath), "UTF-8");
-			
-			Gson gson = new GsonBuilder().create();			
-			receips = gson.fromJson(reader, Receip.class);			
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
 	}
 	
 	private void setTableData() {
